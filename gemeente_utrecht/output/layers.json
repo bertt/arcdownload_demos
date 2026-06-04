@@ -1,0 +1,116 @@
+{
+  "baseUrl": "https://services-eu1.arcgis.com/SMnoOtmU2UWf0vRp/arcgis/rest/services",
+  "orgId": "",
+  "portalHome": "https://www.arcgis.com/home",
+  "generatedAt": "2026-06-04 11:56:51",
+  "layers": [
+    {
+      "path": "fgb/1200_muur/1200_muur.fgb",
+      "service": "1200_muur",
+      "folder": null,
+      "name": "1200_muur"
+    },
+    {
+      "path": "fgb/1500_muur/1500_muur.fgb",
+      "service": "1500_muur",
+      "folder": null,
+      "name": "1500_muur"
+    },
+    {
+      "path": "fgb/1550_muur/1550_muur.fgb",
+      "service": "1550_muur",
+      "folder": null,
+      "name": "1550_muur"
+    },
+    {
+      "path": "fgb/1670_muur/1670_muur.fgb",
+      "service": "1670_muur",
+      "folder": null,
+      "name": "1670_muur"
+    },
+    {
+      "path": "fgb/1_1_Percentage_groen_in_buurten__oppervlak_groen_en_bladerdek_van_bovenaf_bekeken_/1.1 Percentage groen in buurten (oppervlak groen en bladerdek van bovenaf bekeken).fgb",
+      "service": "1_1_Percentage_groen_in_buurten__oppervlak_groen_en_bladerdek_van_bovenaf_bekeken_",
+      "folder": null,
+      "name": "1.1 Percentage groen in buurten (oppervlak groen en bladerdek van bovenaf bekeken)"
+    },
+    {
+      "path": "fgb/20240919_Brandkranen/20240919_Brandkranen.fgb",
+      "service": "20240919_Brandkranen",
+      "folder": null,
+      "name": "20240919_Brandkranen"
+    },
+    {
+      "path": "fgb/20241028_Bosplantsoenen_binnen_gemeentegrens/Bos en bosplantsoen binnen gemeentegrens (141 ha).fgb",
+      "service": "20241028_Bosplantsoenen_binnen_gemeentegrens",
+      "folder": null,
+      "name": "Bos en bosplantsoen binnen gemeentegrens (141 ha)"
+    },
+    {
+      "path": "fgb/20241028_Bosplantsoenen_binnen_gemeentegrens/Bos en bosplantsoen buiten gemeentegrens (51 ha).fgb",
+      "service": "20241028_Bosplantsoenen_binnen_gemeentegrens",
+      "folder": null,
+      "name": "Bos en bosplantsoen buiten gemeentegrens (51 ha)"
+    },
+    {
+      "path": "fgb/Areaalkaart_horizontale_en_verticale_drainage_WFL1/Horizontale drainage.fgb",
+      "service": "Areaalkaart_horizontale_en_verticale_drainage_WFL1",
+      "folder": null,
+      "name": "Horizontale drainage"
+    },
+    {
+      "path": "fgb/Areaalkaart_horizontale_en_verticale_drainage_WFL1/Uitlaat Drainage.fgb",
+      "service": "Areaalkaart_horizontale_en_verticale_drainage_WFL1",
+      "folder": null,
+      "name": "Uitlaat Drainage"
+    },
+    {
+      "path": "fgb/Areaalkaart_horizontale_en_verticale_drainage_WFL1/Uitstroomleiding horizontale drainage.fgb",
+      "service": "Areaalkaart_horizontale_en_verticale_drainage_WFL1",
+      "folder": null,
+      "name": "Uitstroomleiding horizontale drainage"
+    },
+    {
+      "path": "fgb/Areaalkaart_horizontale_en_verticale_drainage_WFL1/Verticale Drainageput.fgb",
+      "service": "Areaalkaart_horizontale_en_verticale_drainage_WFL1",
+      "folder": null,
+      "name": "Verticale Drainageput"
+    },
+    {
+      "path": "fgb/_20200205_EPR/EPR_2022.fgb",
+      "service": "_20200205_EPR",
+      "folder": null,
+      "name": "EPR_2022"
+    },
+    {
+      "path": "fgb/_20220301_EssentaksterfteService/Boom snoeien (uitvoering 2024).fgb",
+      "service": "_20220301_EssentaksterfteService",
+      "folder": null,
+      "name": "Boom snoeien (uitvoering 2024)"
+    },
+    {
+      "path": "fgb/_20220301_EssentaksterfteService/Boom vervangen (uitvoering najaar 2024).fgb",
+      "service": "_20220301_EssentaksterfteService",
+      "folder": null,
+      "name": "Boom vervangen (uitvoering najaar 2024)"
+    },
+    {
+      "path": "fgb/_20220301_EssentaksterfteService/Boom vervangen (uitvoering winter 2024).fgb",
+      "service": "_20220301_EssentaksterfteService",
+      "folder": null,
+      "name": "Boom vervangen (uitvoering winter 2024)"
+    },
+    {
+      "path": "fgb/_20220301_EssentaksterfteService/Essen.fgb",
+      "service": "_20220301_EssentaksterfteService",
+      "folder": null,
+      "name": "Essen"
+    },
+    {
+      "path": "fgb/_2500m_buffer/_2500m_buffer.fgb",
+      "service": "_2500m_buffer",
+      "folder": null,
+      "name": "_2500m_buffer"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "name": "Infiltratieriool - niet in eigendom",
+  "featureCount": 5,
+  "geometryType": "esriGeometryPolyline",
+  "description": "",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "ID"
+    },
+    {
+      "name": "BITMAPANGL",
+      "type": "esriFieldTypeDouble",
+      "alias": "BITMAPANGL"
+    },
+    {
+      "name": "BEGIN_BOB",
+      "type": "esriFieldTypeDouble",
+      "alias": "BEGIN_BOB"
+    },
+    {
+      "name": "BEGIN_BO01",
+      "type": "esriFieldTypeDouble",
+      "alias": "BEGIN_BO01"
+    },
+    {
+      "name": "BOUWJAAR",
+      "type": "esriFieldTypeInteger",
+      "alias": "BOUWJAAR"
+    },
+    {
+      "name": "BREEDTE_LE",
+      "type": "esriFieldTypeInteger",
+      "alias": "BREEDTE_LE"
+    },
+    {
+      "name": "BUIS_DOORL",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "BUIS_DOORL"
+    },
+    {
+      "name": "DEKKING_M",
+      "type": "esriFieldTypeDouble",
+      "alias": "DEKKING_M"
+    },
+    {
+      "name": "DIAMETER_L",
+      "type": "esriFieldTypeInteger",
+      "alias": "DIAMETER_L"
+    },
+    {
+      "name": "EIND_BOB",
+      "type": "esriFieldTypeDouble",
+      "alias": "EIND_BOB"
+    },
+    {
+      "name": "EIND_BOB_A",
+      "type": "esriFieldTypeDouble",
+      "alias": "EIND_BOB_A"
+    },
+    {
+      "name": "HOOGTE_LEI",
+      "type": "esriFieldTypeInteger",
+      "alias": "HOOGTE_LEI"
+    },
+    {
+      "name": "LENGTE_GIS",
+      "type": "esriFieldTypeDouble",
+      "alias": "LENGTE_GIS"
+    },
+    {
+      "name": "NUMMER",
+      "type": "esriFieldTypeInteger",
+      "alias": "NUMMER"
+    },
+    {
+      "name": "OPMERKING",
+      "type": "esriFieldTypeString",
+      "alias": "OPMERKING"
+    },
+    {
+      "name": "WAND_DOORL",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "WAND_DOORL"
+    },
+    {
+      "name": "WANDDIKTE",
+      "type": "esriFieldTypeInteger",
+      "alias": "WANDDIKTE"
+    },
+    {
+      "name": "CODE",
+      "type": "esriFieldTypeString",
+      "alias": "CODE"
+    },
+    {
+      "name": "GUID",
+      "type": "esriFieldTypeString",
+      "alias": "GUID"
+    },
+    {
+      "name": "IMGEOID",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEOID"
+    },
+    {
+      "name": "LAATSTE_UP",
+      "type": "esriFieldTypeDate",
+      "alias": "LAATSTE_UP"
+    },
+    {
+      "name": "BEHEERDERO",
+      "type": "esriFieldTypeString",
+      "alias": "BEHEERDERO"
+    },
+    {
+      "name": "RIOOLBEHEE",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLBEHEE"
+    },
+    {
+      "name": "EIGENAAROM",
+      "type": "esriFieldTypeString",
+      "alias": "EIGENAAROM"
+    },
+    {
+      "name": "BEMALINGSG",
+      "type": "esriFieldTypeString",
+      "alias": "BEMALINGSG"
+    },
+    {
+      "name": "BUURTOMSCH",
+      "type": "esriFieldTypeString",
+      "alias": "BUURTOMSCH"
+    },
+    {
+      "name": "MAATREGEL",
+      "type": "esriFieldTypeString",
+      "alias": "MAATREGEL"
+    },
+    {
+      "name": "PEILGEBIED",
+      "type": "esriFieldTypeString",
+      "alias": "PEILGEBIED"
+    },
+    {
+      "name": "PEILGEBI01",
+      "type": "esriFieldTypeDouble",
+      "alias": "PEILGEBI01"
+    },
+    {
+      "name": "PEILGEBI02",
+      "type": "esriFieldTypeDouble",
+      "alias": "PEILGEBI02"
+    },
+    {
+      "name": "PEILGEBI03",
+      "type": "esriFieldTypeDouble",
+      "alias": "PEILGEBI03"
+    },
+    {
+      "name": "PEILGEBI04",
+      "type": "esriFieldTypeString",
+      "alias": "PEILGEBI04"
+    },
+    {
+      "name": "BEGIN_KNOO",
+      "type": "esriFieldTypeString",
+      "alias": "BEGIN_KNOO"
+    },
+    {
+      "name": "LEIDING_TY",
+      "type": "esriFieldTypeString",
+      "alias": "LEIDING_TY"
+    },
+    {
+      "name": "MATERIAAL",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAAL"
+    },
+    {
+      "name": "VORM_LEIDI",
+      "type": "esriFieldTypeString",
+      "alias": "VORM_LEIDI"
+    },
+    {
+      "name": "RIOOLSTELS",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLSTELS"
+    },
+    {
+      "name": "RIOOLSTE01",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLSTE01"
+    },
+    {
+      "name": "TYPE_VERBI",
+      "type": "esriFieldTypeString",
+      "alias": "TYPE_VERBI"
+    },
+    {
+      "name": "STATUSCODE",
+      "type": "esriFieldTypeString",
+      "alias": "STATUSCODE"
+    },
+    {
+      "name": "STATUSOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "STATUSOMSC"
+    },
+    {
+      "name": "STRAATOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "STRAATOMSC"
+    },
+    {
+      "name": "WION_THEMA",
+      "type": "esriFieldTypeString",
+      "alias": "WION_THEMA"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length"
+    }
+  ]
+}

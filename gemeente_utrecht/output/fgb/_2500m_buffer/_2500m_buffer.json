@@ -1,0 +1,8 @@
+{
+  "id": "_2500m_buffer",
+  "type": "fill",
+  "paint": {
+    "fill-color": "rgba(191,252,199,1)",
+    "fill-outline-color": "rgba(110,110,110,1)"
+  }
+}

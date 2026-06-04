@@ -1,0 +1,23 @@
+{
+  "name": "EPR_2022",
+  "featureCount": 17339,
+  "geometryType": "esriGeometryPoint",
+  "description": "",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "ID",
+      "type": "esriFieldTypeDouble",
+      "alias": "ID"
+    },
+    {
+      "name": "Bestrijdin",
+      "type": "esriFieldTypeString",
+      "alias": "Bestrijdin"
+    }
+  ]
+}

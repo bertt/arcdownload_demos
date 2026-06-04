@@ -1,0 +1,58 @@
+{
+  "name": "Boom vervangen (uitvoering najaar 2024)",
+  "featureCount": 265,
+  "geometryType": "esriGeometryPoint",
+  "description": "",
+  "fields": [
+    {
+      "name": "Nederlandse_naam",
+      "type": "esriFieldTypeString",
+      "alias": "Nederlandse_naam"
+    },
+    {
+      "name": "Leeftijd",
+      "type": "esriFieldTypeDouble",
+      "alias": "Leeftijd"
+    },
+    {
+      "name": "Maatregel",
+      "type": "esriFieldTypeString",
+      "alias": "Maatregel"
+    },
+    {
+      "name": "Buurt",
+      "type": "esriFieldTypeString",
+      "alias": "Buurt"
+    },
+    {
+      "name": "Boomnummer",
+      "type": "esriFieldTypeDouble",
+      "alias": "Boomnummer"
+    },
+    {
+      "name": "X_coordinaat",
+      "type": "esriFieldTypeDouble",
+      "alias": "X_coordinaat"
+    },
+    {
+      "name": "Y_coordinaat",
+      "type": "esriFieldTypeDouble",
+      "alias": "Y_coordinaat"
+    },
+    {
+      "name": "Wetenschappelijke_naam",
+      "type": "esriFieldTypeString",
+      "alias": "Wetenschappelijke_naam"
+    },
+    {
+      "name": "Wijk",
+      "type": "esriFieldTypeString",
+      "alias": "Wijk"
+    },
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    }
+  ]
+}

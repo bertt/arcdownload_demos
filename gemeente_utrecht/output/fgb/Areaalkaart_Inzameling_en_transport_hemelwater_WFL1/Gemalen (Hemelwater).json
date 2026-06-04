@@ -1,0 +1,23 @@
+{
+  "id": "Gemalen (Hemelwater)",
+  "type": "circle",
+  "paint": {
+    "circle-color": [
+      "match",
+      [
+        "get",
+        "TYPE_GEM01"
+      ],
+      "RWA gemaal",
+      "#000000",
+      "gecombineerd gemaal",
+      "#000000",
+      "gemengd gemaal",
+      "#000000",
+      "tunnelgemaal",
+      "#000000",
+      "#000000"
+    ],
+    "circle-radius": 5
+  }
+}

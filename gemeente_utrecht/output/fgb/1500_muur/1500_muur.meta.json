@@ -1,0 +1,43 @@
+{
+  "name": "1500_muur",
+  "featureCount": 57,
+  "geometryType": "esriGeometryPolygon",
+  "description": "",
+  "fields": [
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "alias": "FID"
+    },
+    {
+      "name": "id",
+      "type": "esriFieldTypeInteger",
+      "alias": "id"
+    },
+    {
+      "name": "layer",
+      "type": "esriFieldTypeString",
+      "alias": "layer"
+    },
+    {
+      "name": "Name",
+      "type": "esriFieldTypeString",
+      "alias": "Name"
+    },
+    {
+      "name": "Type",
+      "type": "esriFieldTypeString",
+      "alias": "Type"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length"
+    }
+  ]
+}

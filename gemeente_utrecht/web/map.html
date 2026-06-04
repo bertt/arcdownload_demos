@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlatGeoBuf Viewer</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+<div id="topbar">
+  <a href="index.html">&#8592; Overview</a>
+  <h1 id="topbar-title">FlatGeoBuf Viewer</h1>
+</div>
+<div id="main">
+  <div id="map"></div>
+  <div id="panel">
+    <div class="ps" id="sel-panel" style="display:none">
+      <h2>Selected object</h2>
+      <div id="i-selected"></div>
+    </div>
+    <div class="ps">
+      <h2>Layer information</h2>
+      <div id="i-basic"><div class="kv">Loading&#8230;</div></div>
+    </div>
+    <div class="ps">
+      <h2>Attributes</h2>
+      <div id="i-fields"><em style="font-size:11px;color:#aaa">Loading&#8230;</em></div>
+    </div>
+    <div class="ps">
+      <h2>Styling</h2>
+      <div id="i-style"><em style="font-size:11px;color:#aaa">Loading&#8230;</em></div>
+    </div>
+    <div id="status"></div>
+  </div>
+</div>
+<script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatgeobuf@3/dist/flatgeobuf-geojson.min.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>

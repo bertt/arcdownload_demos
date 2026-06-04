@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoJSON Viewer</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+<div id="topbar">
+  <a href="javascript:history.back()">&#8592; Back</a>
+  <h1 id="topbar-title">GeoJSON Viewer</h1>
+</div>
+<div id="main">
+  <div id="map"></div>
+  <div id="panel">
+    <div class="ps" id="sel-panel" style="display:none">
+      <h2>Selected object</h2>
+      <div id="i-selected"></div>
+    </div>
+    <div class="ps">
+      <h2>Layer information</h2>
+      <div id="i-basic"><div class="kv">Loading&#8230;</div></div>
+    </div>
+    <div id="status"></div>
+  </div>
+</div>
+<script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.11.0/proj4.js"></script>
+<script src="js/portal_geojson.js"></script>
+</body>
+</html>

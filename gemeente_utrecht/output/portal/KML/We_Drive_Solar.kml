@@ -1,0 +1,2746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>We Drive Solar</name>
+    <description><![CDATA[We Drive Solar locaties met Tesla Model 3, ZOE's, IONIQ 5, KONA. Elektrische deelmobiliteit. Laden met de kracht van de zon. 1-11-2022 wijzigingen voorbehouden. ]]></description>
+    <Style id="icon-1522-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1741-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1741-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1741-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1741-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1741-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1787-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1787-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1787-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1787-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1787-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1787-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1787-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1787-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1787-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1787-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>We Drive Solar elektrische deelmobiliteit op zonnestroom</name>
+      <Placemark>
+        <name>Amsterdam Crossover - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            4.8941524,52.3365304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amsterdam Joan Muyskenweg 4</name>
+        <description><![CDATA[ZOE's<br>per eind januari 2019]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.9128699,52.3369671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amsterdam Joan Muyskenweg 6 buiten</name>
+        <description><![CDATA[Tesla Model 3<br>eind januari 2019]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.9130134,52.3367508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amsterdam Joan Muyskenweg 6 garage</name>
+        <description><![CDATA[<img src="https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/mkshio171ar1j9qhjre4ogjgq8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mNr7LvxmvrJ_qRXkKrwmpjcc8ph2djWrzi6ALX24882Uy5naJOkG1TOvB1YR1j7n_rBtqq2ykzBSUMUBq0_ap0zhHzV-aOknmvefuwlywoGGHiw3JJyK3eH-WX5u6yYNciy0T-Utz4l7PmjE85cbQSzdpeJX1d9DrCfF3iRG-hzgkWFgHAnTTLxIXAVA?fife" height="200" width="auto" /><br><br>Tesla Model 3<br>ZOE's<br>per eind januari 2019]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/mkshio171ar1j9qhjre4ogjgq8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mNr7LvxmvrJ_qRXkKrwmpjcc8ph2djWrzi6ALX24882Uy5naJOkG1TOvB1YR1j7n_rBtqq2ykzBSUMUBq0_ap0zhHzV-aOknmvefuwlywoGGHiw3JJyK3eH-WX5u6yYNciy0T-Utz4l7PmjE85cbQSzdpeJX1d9DrCfF3iRG-hzgkWFgHAnTTLxIXAVA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.9130684,52.3368008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amsterdam Kleefkruidstraat 17</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/is8d72uv4v2divvd7ekcvk6ggg/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kx2i-18PB4Iq2pn9X_IqomVRfMiHLSXR84S5om3cntbVzAun7xL4BAZBLMp5xmihsZuOaMvOc91Aj7OTVHjJor-GzjsA0UmqGEUXu3HKyLfnTzeWjPVPIIRyw8DIJE38cs0Fjs6uAaA5U0dKnYWh6kztMlZjdnBZcNYIw-0hBwxjd-_51dT6vr8P4l1A?fife" height="200" width="auto" /><br><br>per 13-12-2018 voor bewoners project Karspelhof en WDS abonnees]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/is8d72uv4v2divvd7ekcvk6ggg/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kx2i-18PB4Iq2pn9X_IqomVRfMiHLSXR84S5om3cntbVzAun7xL4BAZBLMp5xmihsZuOaMvOc91Aj7OTVHjJor-GzjsA0UmqGEUXu3HKyLfnTzeWjPVPIIRyw8DIJE38cs0Fjs6uAaA5U0dKnYWh6kztMlZjdnBZcNYIw-0hBwxjd-_51dT6vr8P4l1A?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.9817037,52.3157151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Bachlaan - tijdelijke locatie</name>
+        <description>Tesla Model 3</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.906657,52.0055392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Beethovenlaan</name>
+        <description>ZOE R90 ZE40</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.9096396,52.0033196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Cattepoelseweg</name>
+        <description>ZOE en Tesla Model 3</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.9088242,52.0051297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Frombergdwarsstraat 37</name>
+        <description><![CDATA[<img src="https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3fedfdrj7on00rv7m7ou4ct0b0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9m-Cqbxjs6VbmFzUjenFG1hyJ0wuDkXXOQVI_Xq54DyJWcaF5sX0a5z8pYOMpn11m05j3CCNsr62m1DwUaro8v5BCaBUBqE_0YWBiAxrYvCkm20SYcMw-N1i7utwUqbTNncuH9Flkot4e1XUIPz6TZW5WNjZFWox9mKbQV_zhyYRhknsmRVDeplJbMpZA?fife" height="200" width="auto" /><br><br>Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3fedfdrj7on00rv7m7ou4ct0b0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9m-Cqbxjs6VbmFzUjenFG1hyJ0wuDkXXOQVI_Xq54DyJWcaF5sX0a5z8pYOMpn11m05j3CCNsr62m1DwUaro8v5BCaBUBqE_0YWBiAxrYvCkm20SYcMw-N1i7utwUqbTNncuH9Flkot4e1XUIPz6TZW5WNjZFWox9mKbQV_zhyYRhknsmRVDeplJbMpZA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.8953908,51.9870498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Gentiaanstraat 19</name>
+        <description><![CDATA[<img src="https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/6rs3mog61tugm93ivg4l5hvldk/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lKIG760_kPKaoKJ2ym0C9cgpXdnbIThCt2g3XOihdCZtPVgCyyu4wIaqzR05dGosUl7XPvZtFghBbYSC4XyuMK0q3dJ5gfalB5RQbahOu9G_IUP4ROw9WytP5mlMlq9naTAWwuS3M-XmMsV0Y3v8MfbKKZH-bECD0JVfdHK03N6XXg8kzUswI5kcdlQg?fife" height="200" width="auto" /><br><br>ZOE ZE50<br>ZOE R90]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/6rs3mog61tugm93ivg4l5hvldk/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lKIG760_kPKaoKJ2ym0C9cgpXdnbIThCt2g3XOihdCZtPVgCyyu4wIaqzR05dGosUl7XPvZtFghBbYSC4XyuMK0q3dJ5gfalB5RQbahOu9G_IUP4ROw9WytP5mlMlq9naTAWwuS3M-XmMsV0Y3v8MfbKKZH-bECD0JVfdHK03N6XXg8kzUswI5kcdlQg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.8813039,51.9878645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Karthuizerstraat</name>
+        <description>ZOE en Kona</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.9376605,51.9928716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Laan van Klarenbeek</name>
+        <description><![CDATA[<img src="https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fvq6k8ddv1i8phu3l6jov1l8is/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lS-3ttow2QpEZiaig9E5Gv-lBugifOe2kg-TwfPyLKb6uL0wsP4DTmfohy8NCBZAGBtMUaVYbNTjmEyCqiqvPZEKFXnPdNVMuULj9hNfnFjOntASK-ViT6Do4XB2MmGiFhXXlCFwRyqAYcTVegaxzsKTPcoP5O8qKKVAfdc7hk4PYbPiyZ48fnVHN4bA?fife" height="200" width="auto" /><br><br>ZOE R90<br>Tijdelijke locatie tot Laan van Angerenstein actief is]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fvq6k8ddv1i8phu3l6jov1l8is/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lS-3ttow2QpEZiaig9E5Gv-lBugifOe2kg-TwfPyLKb6uL0wsP4DTmfohy8NCBZAGBtMUaVYbNTjmEyCqiqvPZEKFXnPdNVMuULj9hNfnFjOntASK-ViT6Do4XB2MmGiFhXXlCFwRyqAYcTVegaxzsKTPcoP5O8qKKVAfdc7hk4PYbPiyZ48fnVHN4bA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.9406856,51.9908639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Oude Kluizeweg 1</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.9045402,52.0061714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnhem Veluwestraat 62</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.8896818,51.9882093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capelle aan den IJssel - Duikerlaan</name>
+        <description><![CDATA[Duikerlaan, in parkeergarage per 1-12-2021<br>Buiten in ontwikkeling]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.591159,51.9318236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Culemborg - Arsenaal 2</name>
+        <description><![CDATA[Tesla Model 3<br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1933898,51.9470725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Culemborg Kees van Lintstraat</name>
+        <description>ZOE R</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1978691,51.9474249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Culemborg Beersluis/Torenfort</name>
+        <description>Tesla model 3 midnight silver</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1921763,51.9468762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Den Haag Energiekwartier/Esperantoplein</name>
+        <description>Tesla Model 3 (entree via Van Boecopkade)</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.2932936,52.0745898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Den Haag Zamenhofstraat 50</name>
+        <description>ZOE ZE50 met CCS</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.2937416,52.0743787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delft Duke Ellingtonstraat</name>
+        <description><![CDATA[Tesla, ZOE's, Kona oa voor OneSpacebewoners]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.3470518,51.9961548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delft Buitenhof - E. du Perronlaan - in ontwikkeling</name>
+        <description>Locatie nog vast te stellen</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.3509315,51.9954594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dordrecht Amstelwijck - in ontwikkeling</name>
+        <description>Locatie nader te bepalen</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.6418022,51.7842776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dordrecht Pieter de Hoochstraat</name>
+        <description>Tuinen van Krispijn, auto per dec 2022</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.6614412,51.7967907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Driebergen Beelaerts van Bloklandstraat</name>
+        <description><![CDATA[<img src="https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/lk1v35bb1ipqkv12o3jg65s2m4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9m1roGO7F2BnhhdZXd73PwLRp7M6DUkLDJzocdxaWS_OiuIPJyKgIrdpSTZtUgiJ1u6VG-mXOQLPwHhVHSFVUwlVRG8p1YXJBD5sQpAR3wO03Gik5br3IpbhTDllRORDGeZ8tTAGZbmsT3DSgI-9AjgjTTZ6_KnB4zY5wRNvg7vLR9zM7NnxdKJLmpPFw?fife" height="200" width="auto" /><br><br>ZOE R]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/lk1v35bb1ipqkv12o3jg65s2m4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9m1roGO7F2BnhhdZXd73PwLRp7M6DUkLDJzocdxaWS_OiuIPJyKgIrdpSTZtUgiJ1u6VG-mXOQLPwHhVHSFVUwlVRG8p1YXJBD5sQpAR3wO03Gik5br3IpbhTDllRORDGeZ8tTAGZbmsT3DSgI-9AjgjTTZ6_KnB4zY5wRNvg7vLR9zM7NnxdKJLmpPFw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.2962095,52.0560593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Driebergen Hoofdstraat</name>
+        <description>ZOE en Tesla Model 3 Long Range</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.2617956,52.0641596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Driebergen Hoofdstraat Charging Plaza Triodos</name>
+        <description><![CDATA[<img src="https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/irhn06skro9cn6n39hhus29a20/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mgxcBbRKXkewMyQDsWaMEXO20vqjux4jacWl8kUAENUn-Z90zbZQO-2_cGQBP6BzWz8VIoYr1riCEVx11gRoYyo8UPF0GW9w0XmXVT89S4wYfGyJsVGwNhP-qqqqWBYhnocpn6b2nifZwT2JlYyJrTWdeA6wSOVDX3EitaN3tC0WpLuyRxrrqM7wl5KQ?fife" height="200" width="auto" /><br><br>ZOE's<br>Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/irhn06skro9cn6n39hhus29a20/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mgxcBbRKXkewMyQDsWaMEXO20vqjux4jacWl8kUAENUn-Z90zbZQO-2_cGQBP6BzWz8VIoYr1riCEVx11gRoYyo8UPF0GW9w0XmXVT89S4wYfGyJsVGwNhP-qqqqWBYhnocpn6b2nifZwT2JlYyJrTWdeA6wSOVDX3EitaN3tC0WpLuyRxrrqM7wl5KQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.2585287,52.0622402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ede Didi Rooslaan - in ontwikkeling</name>
+        <description>Exacte locatie nog vast te stellen - in ontwikkeling Heidestad. Verwachting maart 2023</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.6905441,52.0381251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ede Janny Laupmanlaan 73 tegenover</name>
+        <description>ZOE per medio nov 2021 - tijdelijke locatie</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.6870399,52.0383339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eindhoven Bosuil - in ontwikkeling</name>
+        <description>Locaties nog vast te stellen. Project Waldschap</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.4150576,51.4435375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gouda Voorzorg 55</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.6764977,52.0063731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoorn Blauwe Berg 5 - Missiehuis</name>
+        <description><![CDATA[Tesla Model 3 <br>2x ZOE R]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0419478,52.6482725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Houten Merantihout 13 naast</name>
+        <description>ZOE ZE 50 en KONA</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1708413,52.0188367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Houten Paardenhoeve 100</name>
+        <description>ZOE ZE 50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1606152,52.0392299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Houten Raaigras</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1811416,52.0153672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Houten Wildhoeve</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1605186,52.0382622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IJsselstein Poortdijk 101 - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.050558,52.0236401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leerdam Ambtsplein
+</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.091691,51.8936758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leusden Maanwijk - Apollolaan</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.4073037,52.1234965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leusden - Apollolaan </name>
+        <description>tesla</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.4101174,52.1227892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maastricht Alexander Battalaan 49</name>
+        <description><![CDATA[2xZOE ZE50<br>Tesla model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.7036573,50.8493277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meerkerk Burg. Sloblaan
+</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            4.9947238,51.9199733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nieuwegein Fultonbaan 70-72</name>
+        <description>2x ZOE R en ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1018049,52.0307554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Odijk Clarenburgweg</name>
+        <description><![CDATA[ZOE<br>Tesla model 3 - binnenkort]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.2231277,52.0477251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Odijk - Nierdolk 4 TO</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.2225089,52.0488957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Odijk Rijneiland 7 - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.234475,52.0476959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Abel Tasmanstraat TO 67</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/ttn6vt5j3p4lo2v9qs72l33l54/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kxhmNkHMZu173Funb3BQw3kUjK8xmuWD1pNR03fs6Sy4DkMmum5Qn-5ObfOWxG7Llcwb6yexvAlGIRaGhmbSkDHZOrzjP0kQ9SsydqSZwow8VffjSxFenbFNVasQdXFVXpkb6aj2aNCTweg_V28g3zwDpL4GepgZmuyprCrDyxAsinBWy-Y6rE_xJaww?fife" height="200" width="auto" /><br><br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/ttn6vt5j3p4lo2v9qs72l33l54/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kxhmNkHMZu173Funb3BQw3kUjK8xmuWD1pNR03fs6Sy4DkMmum5Qn-5ObfOWxG7Llcwb6yexvAlGIRaGhmbSkDHZOrzjP0kQ9SsydqSZwow8VffjSxFenbFNVasQdXFVXpkb6aj2aNCTweg_V28g3zwDpL4GepgZmuyprCrDyxAsinBWy-Y6rE_xJaww?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.096975,52.0906676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Adriaan Mulderstraat 7 - in voorbereiding</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0829655,52.1137358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Agaatvlindersingel 17</name>
+        <description><![CDATA[<img src="https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/e2q7st4r9kfom1m1f7qhtpj6qs/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kbVbWNpGBKoKWI7xrkA7VuppDQD3kSkIOfJ5JLDe_J5NCSEuHX75zP3F_c2LfqOiC4Yo0NolfbtJnpbVXuKhNKUvhkzWN6fKP5SbvF5IS2XSSCPSiEtsUTGtxIKbz8QFN1wB2E2jpyqdczIkYjjudKrw_HaDX12kPfcd7d17RaIeQMGgRxvqRWv2H-qA?fife" height="200" width="auto" /><br><br>Tesla Model 3 met trekhaak<br><br><img src="https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/gq3mrgolbq76n904l80i497a7k/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nITtgL-A0z4Z1w-rGMBpYvaTw0bCd_7yH76nNpNEpdcLJDx93Ubf4j-UK3AV2uSpGWIkptbhu6825V_b1qtBfHJ9w0F9tWMwRQlBLMdcnMQbWf6_oDmWQAA_HULEC8JuJp5KGzVgcaw5r3Bm6JQiQf737sxnlNHCYvnK6iothe5kPqcErjyWb_GMP0?fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/e2q7st4r9kfom1m1f7qhtpj6qs/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kbVbWNpGBKoKWI7xrkA7VuppDQD3kSkIOfJ5JLDe_J5NCSEuHX75zP3F_c2LfqOiC4Yo0NolfbtJnpbVXuKhNKUvhkzWN6fKP5SbvF5IS2XSSCPSiEtsUTGtxIKbz8QFN1wB2E2jpyqdczIkYjjudKrw_HaDX12kPfcd7d17RaIeQMGgRxvqRWv2H-qA?fife https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/gq3mrgolbq76n904l80i497a7k/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nITtgL-A0z4Z1w-rGMBpYvaTw0bCd_7yH76nNpNEpdcLJDx93Ubf4j-UK3AV2uSpGWIkptbhu6825V_b1qtBfHJ9w0F9tWMwRQlBLMdcnMQbWf6_oDmWQAA_HULEC8JuJp5KGzVgcaw5r3Bm6JQiQf737sxnlNHCYvnK6iothe5kPqcErjyWb_GMP0?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0547172,52.0950032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Amaliadwarsstraat 2</name>
+        <description>Kona</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1168907,52.0762206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Amerikalaan 199</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/2u2frtns231q79ctb8enjpdg0k/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ms3_eb2V7IVqKzW5JxPKl5nVgnBKcnn_OyybG2ajfuczFnQkxLwdR1f9zQyCLe3-5yOE8yzeEEQR3Zl5itZCtqkcgDVJifBkvW_yR24YiAvKt8hDaMKTm3VIyv2GLvl30vImXz0bYFOcSR84yfk2kAgzYIYDad288uKwB95rOgeGj2yHbEyApaO0OCOQ?fife" height="200" width="auto" /><br><br>ZOE R en ZOE ZE50<br>parkeerterrein achter Krachtstation nr 227]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/2u2frtns231q79ctb8enjpdg0k/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ms3_eb2V7IVqKzW5JxPKl5nVgnBKcnn_OyybG2ajfuczFnQkxLwdR1f9zQyCLe3-5yOE8yzeEEQR3Zl5itZCtqkcgDVJifBkvW_yR24YiAvKt8hDaMKTm3VIyv2GLvl30vImXz0bYFOcSR84yfk2kAgzYIYDad288uKwB95rOgeGj2yHbEyApaO0OCOQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0933014,52.0717313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Aquamarijnlaan 17 TO</name>
+        <description><![CDATA[<img src="https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fm7qd37oo8mpsnfm8c9rhogtrs/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kUj9foGJIwYlQ-azGUvLWSzPodxL3BNpBXS_efHF_o2qSlVL6FjYBi0GIG7hC2OEaS9pKB2A2YTlGc_qlDu0AJn3AJ2TPMOqPIPTQFlMJVU9_uXHnbcZFrWBsmjmuBFrqkfTFcEs-_cwPcTs4Hd-qfmXwS5Oh5h6JW435wH3Ld06MnpVmXkZuk7dyHqQ?fife" height="200" width="auto" /><br><br>ZOE Q<br>ZOE ZE50 tijdelijk<br><br><img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/o2chrr5q2pp3v59ioatfarseok/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nFd6b1fA21Avq4dbcGehbX7gUEI0W1SHU7K7ZlYnwh6IYt4hGivD27yu5xCo0r2-8Sn4WzbJ_7hrxmK_VAVYKC8qdGt-kI5EY6Pbl0gwG77OTR6BTNgSXD7-SYuKxpy-C-k7ecfUU1UISb4HYKpRpumWX3sU0_DWNc6lBHlnuZ_DZDlpvd4ha5SowYAw?fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fm7qd37oo8mpsnfm8c9rhogtrs/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kUj9foGJIwYlQ-azGUvLWSzPodxL3BNpBXS_efHF_o2qSlVL6FjYBi0GIG7hC2OEaS9pKB2A2YTlGc_qlDu0AJn3AJ2TPMOqPIPTQFlMJVU9_uXHnbcZFrWBsmjmuBFrqkfTFcEs-_cwPcTs4Hd-qfmXwS5Oh5h6JW435wH3Ld06MnpVmXkZuk7dyHqQ?fife https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/o2chrr5q2pp3v59ioatfarseok/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nFd6b1fA21Avq4dbcGehbX7gUEI0W1SHU7K7ZlYnwh6IYt4hGivD27yu5xCo0r2-8Sn4WzbJ_7hrxmK_VAVYKC8qdGt-kI5EY6Pbl0gwG77OTR6BTNgSXD7-SYuKxpy-C-k7ecfUU1UISb4HYKpRpumWX3sU0_DWNc6lBHlnuZ_DZDlpvd4ha5SowYAw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1218212,52.0726274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Arthur van Schendelstraat 292</name>
+        <description>Kona</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1181075,52.0821764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Balijelaan</name>
+        <description>ZOE ZE50 en Tesla Model 3 metallic</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1111987,52.0771113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Bartóklaan 3</name>
+        <description><![CDATA[<img src="https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/97j7b8jd2uilco9hm94nu45vn4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lAu0fudFgt6N0o7cqQUf4A9Er-SKlemgu6uxMQT6XXe79rshktzrHe_nML5fM0l4VtcOMovVjU5eFV0-NtNcMlNXhbmLPTINQjlS9MhkvqjkfJaUg7joT1KG_bTDSX8d9sAttPObFwzzJ6DUNaE1ekiaNQMaHIUt8fQB8eFHNmM218dkBeLRiLd5bHUw?fife" height="200" width="auto" /><br><br>ZOE R90<br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/97j7b8jd2uilco9hm94nu45vn4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lAu0fudFgt6N0o7cqQUf4A9Er-SKlemgu6uxMQT6XXe79rshktzrHe_nML5fM0l4VtcOMovVjU5eFV0-NtNcMlNXhbmLPTINQjlS9MhkvqjkfJaUg7joT1KG_bTDSX8d9sAttPObFwzzJ6DUNaE1ekiaNQMaHIUt8fQB8eFHNmM218dkBeLRiLd5bHUw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0911939,52.0850148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Beethovenlaan 9</name>
+        <description><![CDATA[<img src="https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/rfno8b37t06o5v4cr9s57155b4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lgmm92p7ACuNBwzSlpG-36i9mUdbLbHSr-3OdQsJqiJN33rXsWcDB_RCewavL-00_HxhjUaezfHcfELZrK9_QvbFTi4N2SRuwjbnYsrqeNc2iBW0fetmVKZ4gnGVMldNdf3V3hxMKQODw87HSXGAwjuTmQ4YLk9I_9s2LwwThb5Zkq_iHaWWEzDYSAqQ?fife" height="200" width="auto" /><br><br>Kona<br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/rfno8b37t06o5v4cr9s57155b4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lgmm92p7ACuNBwzSlpG-36i9mUdbLbHSr-3OdQsJqiJN33rXsWcDB_RCewavL-00_HxhjUaezfHcfELZrK9_QvbFTi4N2SRuwjbnYsrqeNc2iBW0fetmVKZ4gnGVMldNdf3V3hxMKQODw87HSXGAwjuTmQ4YLk9I_9s2LwwThb5Zkq_iHaWWEzDYSAqQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0883275,52.0860893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Bijleveldstraat 2</name>
+        <description><![CDATA[<img src="https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/vv4ssre1tlpft47t40pd91peo0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9k7id0Z3UknvfTbTjCB0ETymn7I2HTyd7vYNqHTVsZSeLMhY5vcmAb2m-awKLmQz4HIi-Md8bCSbx-IKCheQ35tAzDQ9AQUdzGhpQzGkHTWzqZUl8U-g-ax6l_vncOWSYHuAeFiZiciV1iU6yhfiUWrbdKkZ6Ue_FcVKO7GBbjgobtPjtWW8cQRDngq?fife" height="200" width="auto" /><br><br>ZOE ZE50 en Kona]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/vv4ssre1tlpft47t40pd91peo0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9k7id0Z3UknvfTbTjCB0ETymn7I2HTyd7vYNqHTVsZSeLMhY5vcmAb2m-awKLmQz4HIi-Md8bCSbx-IKCheQ35tAzDQ9AQUdzGhpQzGkHTWzqZUl8U-g-ax6l_vncOWSYHuAeFiZiciV1iU6yhfiUWrbdKkZ6Ue_FcVKO7GBbjgobtPjtWW8cQRDngq?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1120059,52.0782076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Billitonstraat 1 Tegenover
+</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/j399nhsoa3hb78md1r2jrmkdj4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kWTGey8sEGiPLKXEcZTf0bx55omwdY_oM4ofzPbQYQFAOmwe6Eu2tp9095dR2c8Wb4S_2z9MrvFEA7xP9xd9gT7Dphtp0Goez2nD1zGqS66zQjZ5QaUQLR3pxDKRW8D7LG-BzZwzw1RVnxKhaGxyEr0b_cAxA3wlAHPBV6teA56xhsG3qb9D1Q1SqSxA?fife" height="200" width="auto" /><br><br>ZOE ZE50 en Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/j399nhsoa3hb78md1r2jrmkdj4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kWTGey8sEGiPLKXEcZTf0bx55omwdY_oM4ofzPbQYQFAOmwe6Eu2tp9095dR2c8Wb4S_2z9MrvFEA7xP9xd9gT7Dphtp0Goez2nD1zGqS66zQjZ5QaUQLR3pxDKRW8D7LG-BzZwzw1RVnxKhaGxyEr0b_cAxA3wlAHPBV6teA56xhsG3qb9D1Q1SqSxA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0950706,52.0891449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Billitonkade 132 - tijdelijk</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0933494,52.0910412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Bizetlaan 18 tegenover</name>
+        <description>Tesla Model 3 SR+</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.087833,52.0819811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Boisotstraat 2</name>
+        <description>ZOE ZE50 en Kona. Eigen WDS-laadpaal</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0992971,52.1110052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Briljantlaan/Helling 7
+</name>
+        <description><![CDATA[<img src="https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/bsi6eeoqnkl5ds7h23nipes578/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mLQ_66heVNHnjnfeNsBwIrqLqCvh7PlE-7nXMN4uxUIDGRu_q5sc-uqqEzqT0bjDzzgGljImilzPH2AepcBV4nWuFuCXBvLJrbG2CIvLX2Rbwe8Omaifr6CyPniz55wxk6o7LJavJR1lVZIY95sBGiIrwRw19Wib1n9dcA9wMN66df7OcUa8hMF9ml7g?fife" height="200" width="auto" /><br><br>ZOE R en ZOE ZE50<br>locatie sinds 29-6-2018]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/bsi6eeoqnkl5ds7h23nipes578/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mLQ_66heVNHnjnfeNsBwIrqLqCvh7PlE-7nXMN4uxUIDGRu_q5sc-uqqEzqT0bjDzzgGljImilzPH2AepcBV4nWuFuCXBvLJrbG2CIvLX2Rbwe8Omaifr6CyPniz55wxk6o7LJavJR1lVZIY95sBGiIrwRw19Wib1n9dcA9wMN66df7OcUa8hMF9ml7g?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1225257,52.0758135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Burchtpromenade - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0098047,52.0940642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Busken Huetstraat</name>
+        <description>ZOE ZE50 en Tesla Model 3</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0980483,52.0944703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Burg. Fockema Andrealaan</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/juopnscn7rdc6bd2kvtg5rpc60/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kFJiQMD6dEwmbMxY4J_OA84hzOK7IErqZn0Xf9H_NXnFQzi-OTFMgJ-oOWnZJRdkCq4WaPXGs6EsCEJsp8xEoBzb1WRKhyNU-vK3RS90kLTFihMBOM2mvJmCfJSbNMF6X1uCOuSlmH0QluQLADNwMkd3xeNxWXTBW_0voCrDGtI0UAqXb3uFeH6SQp?fife" height="200" width="auto" /><br><br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/juopnscn7rdc6bd2kvtg5rpc60/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kFJiQMD6dEwmbMxY4J_OA84hzOK7IErqZn0Xf9H_NXnFQzi-OTFMgJ-oOWnZJRdkCq4WaPXGs6EsCEJsp8xEoBzb1WRKhyNU-vK3RS90kLTFihMBOM2mvJmCfJSbNMF6X1uCOuSlmH0QluQLADNwMkd3xeNxWXTBW_0voCrDGtI0UAqXb3uFeH6SQp?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1369428,52.0807032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Beukstraat 80 laadplein met deelauto</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1356231,52.0868331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht CAB-rondom 100</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/159b6c5j2bpddmjod9rcjsc750/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ldU_2pXutdhRUokSIKR4ADvaRiJgW-v5Bp2kdhmvYpnJu00ENggNMpyhFa3yLbKPwUMv4rIL_VBglMH4fiyPTmwlxko-aJLYuiPAcA7r35QIWRNZBcAd5eztiY3qc135FWLZjjtiew0rpqKTrD0L4CFhBJY-juoOiRTnk9pwv-oTTfOjUtJNKHbh2tpw?fife" height="200" width="auto" /><br><br>2x IONIQ5]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/159b6c5j2bpddmjod9rcjsc750/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ldU_2pXutdhRUokSIKR4ADvaRiJgW-v5Bp2kdhmvYpnJu00ENggNMpyhFa3yLbKPwUMv4rIL_VBglMH4fiyPTmwlxko-aJLYuiPAcA7r35QIWRNZBcAd5eztiY3qc135FWLZjjtiew0rpqKTrD0L4CFhBJY-juoOiRTnk9pwv-oTTfOjUtJNKHbh2tpw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0886037,52.1024529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Cambridgelaan (HU Padualaan 101)
+</name>
+        <description><![CDATA[<img src="https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/jidaaeji9c03im4u1gi231l1m0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lvl5G0jNOC6EJAEgqJaBEvHRcYmKZGw25agcSUrBe96JvRK3YMd7sIVFxt587rYGfUUwynOCxo4kORJOlHBHdeCPUFfJwXve2-85KBvJ0ySNqApSg6NaHWlOok7RpDpuNhwJei6LioBeqYtEu-Psa4wVaxaJcek55pXWQCyWgyHpPzs0AlRQJ0GC_dOQ?fife" height="200" width="auto" /><br><br>ZOE ZE50's]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/jidaaeji9c03im4u1gi231l1m0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lvl5G0jNOC6EJAEgqJaBEvHRcYmKZGw25agcSUrBe96JvRK3YMd7sIVFxt587rYGfUUwynOCxo4kORJOlHBHdeCPUFfJwXve2-85KBvJ0ySNqApSg6NaHWlOok7RpDpuNhwJei6LioBeqYtEu-Psa4wVaxaJcek55pXWQCyWgyHpPzs0AlRQJ0GC_dOQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1716315,52.0837554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Campinasdreef 24</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3m63gprhndv553b3sfs9sl7t18/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mCZm6NN5OPMc27Ez4cI9IpWXJgkYLdJxpQXLbWD6vBmXRe94Od7oncY77yCwYadMF4JbFiSUmaFJ_hu0DoXNrG6ZzftoH12rh8HWWBRHprZx2q2m-wpcY9sm-bGIjadIECFooPHBlFmdCXOf-hKIivcYH6ycxjB4AebX1tDiJtBcx5yg9qdXSU3jv6Lw?fife" height="200" width="auto" /><br><br>Tesla model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3m63gprhndv553b3sfs9sl7t18/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mCZm6NN5OPMc27Ez4cI9IpWXJgkYLdJxpQXLbWD6vBmXRe94Od7oncY77yCwYadMF4JbFiSUmaFJ_hu0DoXNrG6ZzftoH12rh8HWWBRHprZx2q2m-wpcY9sm-bGIjadIECFooPHBlFmdCXOf-hKIivcYH6ycxjB4AebX1tDiJtBcx5yg9qdXSU3jv6Lw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1020734,52.1143994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Cremerstraat 343</name>
+        <description><![CDATA[<img src="https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/9g6g9r5dru9gkm4u2m50gqvnek/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nSVtDESQahJcdJXmEbncdKRMvk1ipen5u7pGlEaGSslnrJ61C5a6jHfsljK8ipnIdecLW3JVvBrFGYeSrXYSm42k_XmefpyXv0ECiLxw0-TZXhCZLPAnNvnbrtb8JedUZ09f_prGAu9KPUQtjmEuTfA53Xu3vqeKEGixAEUmZ3qes0vtKtvBbXAdAnlw?fife" height="200" width="auto" /><br><br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/9g6g9r5dru9gkm4u2m50gqvnek/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nSVtDESQahJcdJXmEbncdKRMvk1ipen5u7pGlEaGSslnrJ61C5a6jHfsljK8ipnIdecLW3JVvBrFGYeSrXYSm42k_XmefpyXv0ECiLxw0-TZXhCZLPAnNvnbrtb8JedUZ09f_prGAu9KPUQtjmEuTfA53Xu3vqeKEGixAEUmZ3qes0vtKtvBbXAdAnlw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.086456,52.0968637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Croeselaan parkeergarage</name>
+        <description><![CDATA[Hub voor 3. Wisselend aanbod ZOE, Tesla, IONIQ5<br>per 7-10-2021]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.106553,52.087537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Curaçaostraat 1</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/r6r2fk2lha1inp2sqikstjjf2o/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nhhXd2OCwjIq3b8Ll_siGMhrDHWZ_UE4urIxLU6JQlnBz1W1vLZ2u4xu4E5wpRXsLzWDlCCf-cBzQxZ5QvPUKudOv-Wz9dSThxcKzsjGL5MB5C2AV_gsBxD-ymMomtEjmNV3oGY9uH9DiIFKLc3HXZ-U3U2jvKwzqZ7XvcBqm4iMj3g1BqsMEwLHwG?fife" height="200" width="auto" /><br><br>Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/r6r2fk2lha1inp2sqikstjjf2o/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nhhXd2OCwjIq3b8Ll_siGMhrDHWZ_UE4urIxLU6JQlnBz1W1vLZ2u4xu4E5wpRXsLzWDlCCf-cBzQxZ5QvPUKudOv-Wz9dSThxcKzsjGL5MB5C2AV_gsBxD-ymMomtEjmNV3oGY9uH9DiIFKLc3HXZ-U3U2jvKwzqZ7XvcBqm4iMj3g1BqsMEwLHwG?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.08799,52.094377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht 2e Daalsedijk 105</name>
+        <description><![CDATA[<img src="https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/mk2kd5bts94gl2lrkemjmaheco/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nOFApxU0iN4vq_ElZchOj7EKAnCVQqennLpbo_ToqDwOwgAef5Ob0NpQ6On-lKpPXRAfx9JmZEK7Z2rF9f0mIMt9vzkaLL-iZV3Lh-y42uwg2VAdMEeRPsbjfXsKW8-urh4pm5-46FiBHxuqKoanEz1qC2A50iFt59RkbpOx8Q293Utw9TdgT7whwErg?fife" height="200" width="auto" /><br><br>ZOE ZE50<br>Tesla Model 3 met trekhaak<br>per 10-5-2019 op de hoek met Concordiastraat]]></description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/mk2kd5bts94gl2lrkemjmaheco/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nOFApxU0iN4vq_ElZchOj7EKAnCVQqennLpbo_ToqDwOwgAef5Ob0NpQ6On-lKpPXRAfx9JmZEK7Z2rF9f0mIMt9vzkaLL-iZV3Lh-y42uwg2VAdMEeRPsbjfXsKW8-urh4pm5-46FiBHxuqKoanEz1qC2A50iFt59RkbpOx8Q293Utw9TdgT7whwErg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0984365,52.0995592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht 2e Delistraat 35A TO</name>
+        <description>2x ZOE ZE50 met CCS</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0936169,52.0926707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht De Wadden 2</name>
+        <description><![CDATA[<img src="https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/sq3nk0q49gubhfd608e8pjmsso/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lMECsDO61bQKU3LAeET3redWsPFEk0GBXQg2XGE15bRyExfUVOAI_lWz5Li2pxCPi-HNH76Id3yOt3Gtx1C8r_pSQshNKWEOhc383IsrULDwNd1aw2KVFYOJ709Ue3WY_Uh2ekVeLl4qziLx4wW_3rew3VtY7z85PIM6LkrxzaVMKOau4RfyO421hIpg?fife" height="200" width="auto" /><br><br>ZOE]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/sq3nk0q49gubhfd608e8pjmsso/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lMECsDO61bQKU3LAeET3redWsPFEk0GBXQg2XGE15bRyExfUVOAI_lWz5Li2pxCPi-HNH76Id3yOt3Gtx1C8r_pSQshNKWEOhc383IsrULDwNd1aw2KVFYOJ709Ue3WY_Uh2ekVeLl4qziLx4wW_3rew3VtY7z85PIM6LkrxzaVMKOau4RfyO421hIpg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1401281,52.0679647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Dommelstraat zijgevel 16</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1120913,52.0740548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Draadnagelweg (laadplein)</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1149497,52.0619214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Eerste Muntmeesterlaan 2</name>
+        <description>in voorbereiding</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0754173,52.0921302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Everard Meijsterlaan 62</name>
+        <description><![CDATA[ZOE ZE50<br>locatie sinds 27-8-2021]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0824011,52.0874502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Drift 5 - in voorbereiding
+</name>
+        <description>in voorbereiding WDS deelauto</description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.123309,52.0929615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht James Johnsonstraat 100</name>
+        <description>ZOE R</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0595146,52.1005684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht JP Coenstraat 1</name>
+        <description><![CDATA[<img src="https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/7avesou547e20r1tdl6l393tn8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ngYDPPruXrnC7uN4iA1pSWx1yt0N9A8HVT8fqO2YE--2frZz1WPhmCcv6cDTKgBQcE2yJ3mzmFnIIcAceKOrU3-H2sCNnFP44BGDSHY_s3wE2ZnLBCy0a4KmVrmnvsQ8fmLNy-2U4JneEOuBkvzhext_FX2mo70MS_j3pOACHdL50hHuDg1O0i61rO_g?fife" height="200" width="auto" /><br><br>Tesla Model 3 met trekhaak<br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0k-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/7avesou547e20r1tdl6l393tn8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ngYDPPruXrnC7uN4iA1pSWx1yt0N9A8HVT8fqO2YE--2frZz1WPhmCcv6cDTKgBQcE2yJ3mzmFnIIcAceKOrU3-H2sCNnFP44BGDSHY_s3wE2ZnLBCy0a4KmVrmnvsQ8fmLNy-2U4JneEOuBkvzhext_FX2mo70MS_j3pOACHdL50hHuDg1O0i61rO_g?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0983966,52.0888811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Johan Winnubstlaan</name>
+        <description><![CDATA[<img src="https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/nblnen28r5o92ppf79rtg54pio/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lCzFreUlYmZtn3bUcffPNpeWHdhm4LR7Ts3ASpbKVkeYEg-j7ENe-TSYRqYGIIh8UKchNYCBjRqz8S92VcVzevL9Sl1iDK6ESIh60IADMkx0zNv1RtSTOxan7DwViK5Icd_SXRXkuluD7QYUI9xAm7nIQ3d_oleC-KVWaUV5h6-HVkUv8uIe-41h8y?fife" height="200" width="auto" /><br><br>Tesla Model 3 <br>per eind juli 2020]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/nblnen28r5o92ppf79rtg54pio/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lCzFreUlYmZtn3bUcffPNpeWHdhm4LR7Ts3ASpbKVkeYEg-j7ENe-TSYRqYGIIh8UKchNYCBjRqz8S92VcVzevL9Sl1iDK6ESIh60IADMkx0zNv1RtSTOxan7DwViK5Icd_SXRXkuluD7QYUI9xAm7nIQ3d_oleC-KVWaUV5h6-HVkUv8uIe-41h8y?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0853941,52.0869648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Joseph Haydnlaan 17</name>
+        <description>Kona</description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0851569,52.0838213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Floresstraat 3</name>
+        <description><![CDATA[<img src="https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/5mcbbnmjds5o9ft47hsb4b9c88/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kI4QsVY7dXKXQ2nUZaKWwRWiatCO0hOEqLEbrEY6O0dGFH9U8BG_9JIVw7Q7CqV7i-2VscZdwfUS5lElE4b2X9-opiH9hUpGFbFNqDGbpWGgeEj3WSujHBqmXqEJvA3OMXp0XNpj0EImCkPfHgysPrV3frjh-ocl8Wo0pbeMDCSxA0O4sgDAvYW5QNVQ?fife" height="200" width="auto" /><br><br>ZOE ZE50 en Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/5mcbbnmjds5o9ft47hsb4b9c88/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kI4QsVY7dXKXQ2nUZaKWwRWiatCO0hOEqLEbrEY6O0dGFH9U8BG_9JIVw7Q7CqV7i-2VscZdwfUS5lElE4b2X9-opiH9hUpGFbFNqDGbpWGgeEj3WSujHBqmXqEJvA3OMXp0XNpj0EImCkPfHgysPrV3frjh-ocl8Wo0pbeMDCSxA0O4sgDAvYW5QNVQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1006771,52.0901971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Galjoenstraat 1 - voorlopige locatie</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0844504,52.0978507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Gerbrandystraat 20</name>
+        <description>2x ZOE R, er komen er meer</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1137449,52.1056898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Gietershof 10</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1141147,52.0991198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Hendrik Tollenstraat 22</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1174052,52.0798664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Vleuten Gouden Koetslaan</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0122944,52.0995159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Groenestraat - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1257264,52.0858631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Groeneweg 90 tegenover</name>
+        <description>Tesla Model 3 met trekhaak</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0902796,52.0906445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Groenmarktstraat 1 - in ontwikkeling
+</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1082912,52.0840587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Heidelberglaan HU</name>
+        <description><![CDATA[<img src="https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/gfud8pqgdqsoa93o2g3k7fgrc0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lXs74dk9dWW7ZULk1XKTe6ntCZiOi_I4VvE0QTIkkgPJHvKN3qx3dKHqXAtIh6o57tZlD_mN2cfT3eR4wepYRR8U6YcCg2szXIYW5lrvwsD0oHkZUzkAvgQb4jvr__WFv7y7zC_UCWsM_0SARKhZJ6skbUyIbHIVvSRIrN2iR8tzjow8ZF-gcF0IrgHA?fife" height="200" width="auto" /><br><br>ZOE]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/gfud8pqgdqsoa93o2g3k7fgrc0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lXs74dk9dWW7ZULk1XKTe6ntCZiOi_I4VvE0QTIkkgPJHvKN3qx3dKHqXAtIh6o57tZlD_mN2cfT3eR4wepYRR8U6YcCg2szXIYW5lrvwsD0oHkZUzkAvgQb4jvr__WFv7y7zC_UCWsM_0SARKhZJ6skbUyIbHIVvSRIrN2iR8tzjow8ZF-gcF0IrgHA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1748205,52.083813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Heivlinder 34 - voorlopige locatie</name>
+        <description>Tesla Model 3</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0577373,52.0948328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Herenweg (Ekoplaza)</name>
+        <description>eigen laadpaal in voorbereiding, wacht op netverzwaring. Tesla Model 3</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1085952,52.0961419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Kanaalweg 91</name>
+        <description><![CDATA[<img src="https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/ipnrjvtn3b4atgoh7facei3b70/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lajrCw-L95NTAaKIeqqrxITfbnGh2iHCiET1ShOddHFhbSFwa1YgiFsfKmBZ1Cn09hLHvWJkf64daAKCvBnyOizodVI6-kAdom5CmHKdCgyT4tdGWfOZ0_MDx8ZVmgPkb_pEtxqT8uJf09msKMnAUSNsHkR21UCSWdV9ST-nWyoLq4i2HuAhvKrrEdDw?fife" height="200" width="auto" /><br><br>Tesla model 3<br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/ipnrjvtn3b4atgoh7facei3b70/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lajrCw-L95NTAaKIeqqrxITfbnGh2iHCiET1ShOddHFhbSFwa1YgiFsfKmBZ1Cn09hLHvWJkf64daAKCvBnyOizodVI6-kAdom5CmHKdCgyT4tdGWfOZ0_MDx8ZVmgPkb_pEtxqT8uJf09msKMnAUSNsHkR21UCSWdV9ST-nWyoLq4i2HuAhvKrrEdDw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0903825,52.088875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Kariboestraat - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1291251,52.0752626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Karperstraat</name>
+        <description>ZOE en KONA</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1177584,52.0632169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Knipstraat</name>
+        <description><![CDATA[<img src="https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fbn06hmm1uqi7p0fpk358ajjo4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kk6HZ6zNHLK6_9plCmPLpatbiKbujJgVocvZx1I8nD290w7fSwoHBZS3O2dZJPTnHRtgcFPI1nQ1WWWzIeS4M_byD_9YNJ4U26EAKTGuOophVQQjruxtl9hOmoET82YOOggGGxlVgaqoDGOBd_Z66PX3GKq905Zz0Kn2w1kOT4WCJQBbUbIwTNRk2yWg?fife" height="200" width="auto" /><br><br>ZOE ZE50 en IONIQ5<br>sinds 22-8-18]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fbn06hmm1uqi7p0fpk358ajjo4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kk6HZ6zNHLK6_9plCmPLpatbiKbujJgVocvZx1I8nD290w7fSwoHBZS3O2dZJPTnHRtgcFPI1nQ1WWWzIeS4M_byD_9YNJ4U26EAKTGuOophVQQjruxtl9hOmoET82YOOggGGxlVgaqoDGOBd_Z66PX3GKq905Zz0Kn2w1kOT4WCJQBbUbIwTNRk2yWg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.108369,52.0935515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Knipstraat Movares
+</name>
+        <description>- besloten groep, meerdere ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1096136,52.0941314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht / De Meern Kortrijkpolder 8 t/m </name>
+        <description>ZOE ZE 50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0182263,52.0844344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Kruisstraat</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1298173,52.0935263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Lange Nieuwstraat</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/d9vnq0i175sdqii7e51fd9bbc4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9m35A_K6oBCBIcHgSM7jDSbAscX6FeJ6_PP_i5BqClwFVj1_PagkPZZr2JOXV7DVLQws-ZTkH-bExrhNStkbhSEG3MxzyOoNK91aJuBqgqMqhz7L7Sh6fR1bgct30UpoKX8_JJLlm1BjQ68WznH90NJcQUygQZmiJ1XHvmj5s4GdEJpimLHiiM5qsa6Nw?fife" height="200" width="auto" /><br><br>ZOE en ZOE ZE50 - besloten groep]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/d9vnq0i175sdqii7e51fd9bbc4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9m35A_K6oBCBIcHgSM7jDSbAscX6FeJ6_PP_i5BqClwFVj1_PagkPZZr2JOXV7DVLQws-ZTkH-bExrhNStkbhSEG3MxzyOoNK91aJuBqgqMqhz7L7Sh6fR1bgct30UpoKX8_JJLlm1BjQ68WznH90NJcQUygQZmiJ1XHvmj5s4GdEJpimLHiiM5qsa6Nw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1256371,52.0844773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Langerakbaan 135</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/cl7i8v21auntja2gkjqsltekko/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kzr4iUvUh-WcNiy1EoxdFv9meoe9c948GoomPIezOidwIBUC3PikU6J-jYCsqo1bpBzBYNYfV02ugEbxCAvp4C-6CBcwl3mDJGP3uu8-8SoFeyi7-7b929U63cO2vN-9sljJUy8IIOnJjkhsFtlaARos8fJ3hHvEprbo1_oWaQmcPPC3SKGTXYI4gs?fife" height="200" width="auto" /><br><br>ZOE <br>per 1/4/17]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/cl7i8v21auntja2gkjqsltekko/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kzr4iUvUh-WcNiy1EoxdFv9meoe9c948GoomPIezOidwIBUC3PikU6J-jYCsqo1bpBzBYNYfV02ugEbxCAvp4C-6CBcwl3mDJGP3uu8-8SoFeyi7-7b929U63cO2vN-9sljJUy8IIOnJjkhsFtlaARos8fJ3hHvEprbo1_oWaQmcPPC3SKGTXYI4gs?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0627124,52.0859541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Leidseweg 24
+</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3qooqn8uu39hthal88o1t53qks/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nROP1GMAXYpleqpk0HEBKAxTFS7XQmZ9iqoGaG8UyMv973RFEGjP2nQyd32vK_LlX7vYQ7BJ-r9kWJWO7rmellqBNx1es1LCf7JMMaGAv-7HR16tF4R30TfWo5YaIf0Ha_ufUfANl9fodebKEVnKxvqaxTbITzu4SNax1z8sAxgwoMkVCb7BPg3qb3Hw?fife" height="200" width="auto" /><br><br>Kona]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3qooqn8uu39hthal88o1t53qks/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nROP1GMAXYpleqpk0HEBKAxTFS7XQmZ9iqoGaG8UyMv973RFEGjP2nQyd32vK_LlX7vYQ7BJ-r9kWJWO7rmellqBNx1es1LCf7JMMaGAv-7HR16tF4R30TfWo5YaIf0Ha_ufUfANl9fodebKEVnKxvqaxTbITzu4SNax1z8sAxgwoMkVCb7BPg3qb3Hw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1032192,52.0898667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Laak 1 - voorlopige locatie</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0072718,52.0852227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Lamerislaan - in ontwikkeling eigen plek</name>
+        <description>ZOE R</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1376331,52.1089436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Leidseweg 65</name>
+        <description>Tesla Model 3 met trekhaak</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0993535,52.0887955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Leeuwensteyn - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0761817,52.0868015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Lepelenburg</name>
+        <description><![CDATA[<img src="https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/h0j8l4dacp1onh3ifut3oancec/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9llzNGJVCQIIsQ9qFrQN0w-AFuXJ4mVQmOKhJJ5Xkh6pZveYDBKtyRBOriq8xqLmWVQgi0BatklgQEnoPI5rhH8atoklEkCNyNEL2frLqHL6sYmZKyC367u5TFsk0LOcnFNr-jcIHzCAcpom1zhCgfJF-KJAWVlTfecgSG9zmiSllr4JmQs1nqoMmTj?fife" height="200" width="auto" /><br><br>Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/h0j8l4dacp1onh3ifut3oancec/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9llzNGJVCQIIsQ9qFrQN0w-AFuXJ4mVQmOKhJJ5Xkh6pZveYDBKtyRBOriq8xqLmWVQgi0BatklgQEnoPI5rhH8atoklEkCNyNEL2frLqHL6sYmZKyC367u5TFsk0LOcnFNr-jcIHzCAcpom1zhCgfJF-KJAWVlTfecgSG9zmiSllr4JmQs1nqoMmTj?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1276382,52.0898757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Lombokstraat 47
+</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/jcti32al0m3qklhf14if3jel9c/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nVRrTvGULedHOWjh8Ib5zT5bTrlOmssqI0suSOxalOB7LCY0WBIvBMRMwV4DbFYyn7cVUdpx5MgkzgWhtPIjF7hAHFClORlW3ig2CUeGLaZR-OpW4G8q5nuTDNzFRKM7w-c60vKCILOCpFf2ppmKMkeLon4XY_uI21GcroWz-PNjVVXBvFYfBuBPTkpA?fife" height="200" width="auto" /><br><br>ZOE ZE50 en ZOE R]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/jcti32al0m3qklhf14if3jel9c/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nVRrTvGULedHOWjh8Ib5zT5bTrlOmssqI0suSOxalOB7LCY0WBIvBMRMwV4DbFYyn7cVUdpx5MgkzgWhtPIjF7hAHFClORlW3ig2CUeGLaZR-OpW4G8q5nuTDNzFRKM7w-c60vKCILOCpFf2ppmKMkeLon4XY_uI21GcroWz-PNjVVXBvFYfBuBPTkpA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1001829,52.0915806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Louis Couperusstraat 1</name>
+        <description>ZOE ZE50 per 24-8-2021</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.094154,52.0958737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Madridstraat</name>
+        <description>Kona</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0678241,52.0943161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Maliestraat - laadplein met deelauto</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1369759,52.0941427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Melis Stokestraat 26</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/omdusitfh66vlhmc32din8pejc/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9n_nbatha3HaWip_tbCEuGtUxhlAGIFK7y08LzAa6GaIMX-v3gd7a3zUUxSONwjxNP7lQlU4Gc8zSYEUl60JHpziLcZk6OtP_K-TWTisLYyN29zeVXT0GOtB_0_D-sD61X4us8DzuE-IxEX2hV3I-83QayygpfxzLjqN8fjacg1E5hDS4WbyibDEVS60A?fife" height="200" width="auto" /><br><br>ZOE]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/omdusitfh66vlhmc32din8pejc/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9n_nbatha3HaWip_tbCEuGtUxhlAGIFK7y08LzAa6GaIMX-v3gd7a3zUUxSONwjxNP7lQlU4Gc8zSYEUl60JHpziLcZk6OtP_K-TWTisLYyN29zeVXT0GOtB_0_D-sD61X4us8DzuE-IxEX2hV3I-83QayygpfxzLjqN8fjacg1E5hDS4WbyibDEVS60A?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1166119,52.1023411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Narcisstraat - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0975122,52.1003486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Molenbeekstraat 12
+</name>
+        <description><![CDATA[<img src="https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/vcfkgukdrni4q0h81qtlhdsid0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9n2BChvNaUUmmd98kl74-kZnG7tibPSrW98ni1C0nypRiVjwMZM55YblhyHuTbphWWqRTucZzNQDUeu5zREFq2fqcROtwNVd9JfB_PQWyjCl9TaeSP3E5I938ikQzn_F9OZehiOi5vaJKPmqBIhwvMzgPJO3odTXOCUv_AlKPSVRnmkO_Ya1DslfqbKZg?fife" height="200" width="auto" /><br><br>Tesla Model 3<br>ZOE- per 2-3-18]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/vcfkgukdrni4q0h81qtlhdsid0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9n2BChvNaUUmmd98kl74-kZnG7tibPSrW98ni1C0nypRiVjwMZM55YblhyHuTbphWWqRTucZzNQDUeu5zREFq2fqcROtwNVd9JfB_PQWyjCl9TaeSP3E5I938ikQzn_F9OZehiOi5vaJKPmqBIhwvMzgPJO3odTXOCUv_AlKPSVRnmkO_Ya1DslfqbKZg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.11258,52.0791038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Nicolaaskerkhof</name>
+        <description><![CDATA[<img src="https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3ugm4pgv9rov6ec0mbjamofan8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nVYBKPDAskxsV9qzH2T-hV9y-k7hoAinBYI9gMFA_t3S-ahV3iLyx0p7AHF0sZNbdvYlaafskXz907D_BLURQW2xp9sqDGJ8lz3SAf5tyte3sBYwAx0irp1SVFewBqLoe7kK4TaVNiECLSVLCGilOThyDoq6EKidW9JqCsYIt0FozOqEqPTrpbYAvZ?fife" height="200" width="auto" /><br><br>ZOE R90<br>binnenkort uitbreiding]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3ugm4pgv9rov6ec0mbjamofan8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nVYBKPDAskxsV9qzH2T-hV9y-k7hoAinBYI9gMFA_t3S-ahV3iLyx0p7AHF0sZNbdvYlaafskXz907D_BLURQW2xp9sqDGJ8lz3SAf5tyte3sBYwAx0irp1SVFewBqLoe7kK4TaVNiECLSVLCGilOThyDoq6EKidW9JqCsYIt0FozOqEqPTrpbYAvZ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1246142,52.0833144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Molukkenstraat 72</name>
+        <description><![CDATA[<img src="https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fe3fnv5qd3ajggj0p9libsclsk/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9liHNu5GRkw0cpSOxlAe9xkVHdMAO298zH73PZ6mLK6pltuMRP4sHhcEssEE5crdLJMGwZzMXP3cW-BWnXbGL0aDRXMQrT8A-9WUPkznIzC0yuDEZO9S0JUITAcD-PfmIoTYQ5lmkmTB7jF3k62_59sTbAXkimLxZpSbS_I8Rcf68cN_jVGd-I2QdXy?fife" height="200" width="auto" /><br><br>ZOE R en Tesla Model Midnight Silver 3 SR+]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/fe3fnv5qd3ajggj0p9libsclsk/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9liHNu5GRkw0cpSOxlAe9xkVHdMAO298zH73PZ6mLK6pltuMRP4sHhcEssEE5crdLJMGwZzMXP3cW-BWnXbGL0aDRXMQrT8A-9WUPkznIzC0yuDEZO9S0JUITAcD-PfmIoTYQ5lmkmTB7jF3k62_59sTbAXkimLxZpSbS_I8Rcf68cN_jVGd-I2QdXy?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0906231,52.0925463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Molenwerfsteeg</name>
+        <description><![CDATA[<img src="https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/bgaatpa1ab5aadkjajivhq2eb0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ntgO834fSEf4g3rKi4LKvJijSD3sqK7K9cHjBKpzeQP_od8L3gI7Tq_3QD2t8VzLnB8_gnf7cVLHSb-LNvIKjDERN0E5yn3Hm1lj75S7WWThboGyyv1tWXr7s_mC_fe1W99oihsquvZeVcyE6N2uTaEropALXOyhvqM4lWjtRWGmL0kRAX0tIRYr-q?fife" height="200" width="auto" /><br><br>Tesla model 3 met trekhaak <br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/bgaatpa1ab5aadkjajivhq2eb0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9ntgO834fSEf4g3rKi4LKvJijSD3sqK7K9cHjBKpzeQP_od8L3gI7Tq_3QD2t8VzLnB8_gnf7cVLHSb-LNvIKjDERN0E5yn3Hm1lj75S7WWThboGyyv1tWXr7s_mC_fe1W99oihsquvZeVcyE6N2uTaEropALXOyhvqM4lWjtRWGmL0kRAX0tIRYr-q?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1138224,52.100166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Muntkade 1</name>
+        <description><![CDATA[ZOE ZE50 en IONIQ5<br>per 23-11-2021]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0967093,52.0865769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Nieuwe Keizersgracht 38</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/hhra0o3c7u7f8tv8set5b652b8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kXBwcbqBoo9sv1sohM4MoY7-tIpLHMfyaBrO013Bys0bhk0GFM21Ll9VEa7WquvBtcFdyqUMYp9hVEZXzuJ7O5fA6h_DFpHPNPsQvHvlSRD2Pe5wwg39jKCI3tw5eS3JNlc30lW9S6OurVBamC_kX2y_efW-Q2vA8bXz1fofAJUwum10sSWkXXvwKo?fife" height="200" width="auto" /><br><br>Kona]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/hhra0o3c7u7f8tv8set5b652b8/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kXBwcbqBoo9sv1sohM4MoY7-tIpLHMfyaBrO013Bys0bhk0GFM21Ll9VEa7WquvBtcFdyqUMYp9hVEZXzuJ7O5fA6h_DFpHPNPsQvHvlSRD2Pe5wwg39jKCI3tw5eS3JNlc30lW9S6OurVBamC_kX2y_efW-Q2vA8bXz1fofAJUwum10sSWkXXvwKo?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1192512,52.0996157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Nolenslaan</name>
+        <description>Kona - 20-8-2021</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1168755,52.1039809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Oldenburgerstraat 151
+</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/v8i5abjtjanvb9lr6ibo5kfrh4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nLHurZOSkJv7nYZp6O8LDlIXtY1p1Y-oFMNKFNjn9nTB6tTv6HL2CUj1rTAuvA8R4rT6gbIN-xLSCKRC-2pD_wjM6FcdzWDNZ8ReAGoT9oqRh4Ee6q04sSqVaaVRhVZY9WHn_UZ97aAJyksYzf2frdc1LhgB57FSncq1PqRXK2_LVSH7NHsfLnlkhAPQ?fife" height="200" width="auto" /><br><br>KONA]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/v8i5abjtjanvb9lr6ibo5kfrh4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nLHurZOSkJv7nYZp6O8LDlIXtY1p1Y-oFMNKFNjn9nTB6tTv6HL2CUj1rTAuvA8R4rT6gbIN-xLSCKRC-2pD_wjM6FcdzWDNZ8ReAGoT9oqRh4Ee6q04sSqVaaVRhVZY9WHn_UZ97aAJyksYzf2frdc1LhgB57FSncq1PqRXK2_LVSH7NHsfLnlkhAPQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.146164,52.1041098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Olof Palmelaan 78</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0945496,52.0821269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Oosterlengte 1</name>
+        <description>ZOE en IONIQ met trekhaak</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0373282,52.0850593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Oranje Vrijbuiterslaan 71 Wilhelminawerf</name>
+        <description>Tesla Model 3 en ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1080011,52.0782439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Oudenoord 153</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/0lsln1jmkp7699uvrgmirbv2ks/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kqL5sLGemznw78n-r0RZQNcLn5uUpQN7jVNu2iV0RdW6YhFw48HnvhLwaXiMyAFSGO91O61sbpEa_7nL_jP4Wtv1b9DQwRU6FEiDEfGJbgtHC6XcQ-ET8wTTXT5Nl9K-tUlEYGH6itIoQX9r8OQtmk15up1oJfg8FLo5bmwsPuLArzhM0Uav11qg5mCw?fife" height="200" width="auto" /><br><br>2xZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/0lsln1jmkp7699uvrgmirbv2ks/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kqL5sLGemznw78n-r0RZQNcLn5uUpQN7jVNu2iV0RdW6YhFw48HnvhLwaXiMyAFSGO91O61sbpEa_7nL_jP4Wtv1b9DQwRU6FEiDEfGJbgtHC6XcQ-ET8wTTXT5Nl9K-tUlEYGH6itIoQX9r8OQtmk15up1oJfg8FLo5bmwsPuLArzhM0Uav11qg5mCw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1108669,52.0979594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Padualaan 97 (afgesloten parkeerplaats HU) - PG163H
+</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/073dmruos7pi0qfkk64r0ortds/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lwjm_k2ZeuttPeR_YYx_vwzzIsAmc70ZDhWQQOHdl7YIlU8BDfcYBYVwoxrsY87ewcMiUzoQQ36Ndp5BcgOaV64LjTEAe6GP4l0rVVPDotWZrIeTSzBWYbsJUiohp_aPkVdhU48-rILdSW2BxHoUwizjb9thl8eGVDMbEQ9GWy73efkQAKBQcJGP_9bg?fife" height="200" width="auto" /><br><br>- besloten]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/073dmruos7pi0qfkk64r0ortds/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lwjm_k2ZeuttPeR_YYx_vwzzIsAmc70ZDhWQQOHdl7YIlU8BDfcYBYVwoxrsY87ewcMiUzoQQ36Ndp5BcgOaV64LjTEAe6GP4l0rVVPDotWZrIeTSzBWYbsJUiohp_aPkVdhU48-rILdSW2BxHoUwizjb9thl8eGVDMbEQ9GWy73efkQAKBQcJGP_9bg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1685041,52.0837225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Paramaribostraat 112 </name>
+        <description>ZOE R en ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0864739,52.0922476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Pelmolenweg thv Boogstraat</name>
+        <description>Kona</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1208626,52.0835181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Utrecht Pieter d'Hontlaan 13]]></name>
+        <description>Tesla Model 3 en ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0628326,52.0935795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Plantenkasstraat thv 29</name>
+        <description>ZOE R</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0481091,52.0962775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Racinelaan 10 tegenover</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/67pq7mgnb22p2snl7n2rp86fm4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mhu1uEcSuPa66P6crojSQVg2hHpc6ZVvvZDD8HseZ9cXofyrPFSGaS2ZrKghbiuvIbp6cQ6F23GtV99JWQhsPUHUxqqGM7LylrUDf9jfMg1suEqelVOCZ0gAr6bFnPRZJCA5DD4B6IHuf6ex40em2ZtvLxj537HejNR1VylSp67N1-nC4N-FUJaey4QA?fife" height="200" width="auto" /><br><br>2x ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/67pq7mgnb22p2snl7n2rp86fm4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mhu1uEcSuPa66P6crojSQVg2hHpc6ZVvvZDD8HseZ9cXofyrPFSGaS2ZrKghbiuvIbp6cQ6F23GtV99JWQhsPUHUxqqGM7LylrUDf9jfMg1suEqelVOCZ0gAr6bFnPRZJCA5DD4B6IHuf6ex40em2ZtvLxj537HejNR1VylSp67N1-nC4N-FUJaey4QA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0857706,52.0897542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Racinelaan 17 TO in ontwikkeling</name>
+        <description>per 23-11-2021</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0836788,52.0902018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Ravellaan</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0954562,52.0845991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Romestraat</name>
+        <description>besloten: IONIQ5 2 x</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0679851,52.0953509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Ryelandstraat</name>
+        <description><![CDATA[<img src="https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/2oe5rhl05a3se8k5mmi001m390/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mhJktkmH5dzcuUPo0JhzB-5o5yQ8rwG3UQW42q8hFFyEp40IuzCxS_qxpO9aXooFmrD7vb-Beoa8itP7PX6kvVO7-4cAWx8HjS-AaD0LurwMVg48IQFh_kkw3GSZqNesjD8_dbYRXYtY8EG7HiHjPbdNwGgbs2kziI3aFQsOmkMhvPxtYKNjB0kVjk?fife" height="200" width="auto" /><br><br>ZOE ZE50<br>Tesla Model 3]]></description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0c-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/2oe5rhl05a3se8k5mmi001m390/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mhJktkmH5dzcuUPo0JhzB-5o5yQ8rwG3UQW42q8hFFyEp40IuzCxS_qxpO9aXooFmrD7vb-Beoa8itP7PX6kvVO7-4cAWx8HjS-AaD0LurwMVg48IQFh_kkw3GSZqNesjD8_dbYRXYtY8EG7HiHjPbdNwGgbs2kziI3aFQsOmkMhvPxtYKNjB0kVjk?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1494393,52.1033034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Schoonebekerstraat</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.147791,52.1042016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Seringstraat - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0942324,52.1011497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Sint Janshovenstraat</name>
+        <description><![CDATA[<img src="https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/96v342v6sidig67lc8quniokes/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lDWlrkVVs1BZsyXtFrNdqf1WNI9YLZ2mFUsVim-CATenb0p7Uic_7G7DdxPWkF0cIIB9nj2qi8JdLvcfUn2UKMRnthc7ByBSrnCvbvjHo-NM9a4vaPAI84xDNkS21nDeqwXLBwBeNKm4O25BIR1EQOCXW5fFWI__g3Al3WTQS7yz9gP341b6yRvxIo?fife" height="200" width="auto" /><br><br>ZOE]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0o-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/96v342v6sidig67lc8quniokes/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lDWlrkVVs1BZsyXtFrNdqf1WNI9YLZ2mFUsVim-CATenb0p7Uic_7G7DdxPWkF0cIIB9nj2qi8JdLvcfUn2UKMRnthc7ByBSrnCvbvjHo-NM9a4vaPAI84xDNkS21nDeqwXLBwBeNKm4O25BIR1EQOCXW5fFWI__g3Al3WTQS7yz9gP341b6yRvxIo?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1273447,52.0958274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Singeldwarsstraat - tijdelijke locatie</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1095486,52.0965866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Stalpaert van der Wielenstraat</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1118882,52.0839766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Sumatrastraat - in aanvraag</name>
+        <description>ter hoogte van zijgevel Ceramstraat 41</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1034117,52.0907566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Thorbeckelaan 97</name>
+        <description>ZOE per sept 2019</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0998414,52.1072301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Tweede Westerparklaan 200</name>
+        <description>ZOE ZE50 en ZOE R</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0437702,52.0909068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Imhoffstraat 9</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0964507,52.0917388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Valeriaanweg 245</name>
+        <description>tijdelijk: Tesla Model 3</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0711715,52.09251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Werner Helmichstraat 76</name>
+        <description><![CDATA[<img src="https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/g8ebi1olh4bsf9bfkl00mf573c/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mLYruWN0h86ZAOxFWLnVBd8nkYHqRAzj8CDN9mFVNnm_cBULYh_4MzwJvsQKFAn0c5GLb939z-39vVmsEp2B9J8DtHxYoa0AxN5scPd1daJDreTun-e7IGq-jputp3HGb4nGHsp1JbQA3QAdggkas6OjQOz8z5EUffFu6LgJVJyoClNYnEDATwtcwf?fife" height="200" width="auto" /><br><br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/g8ebi1olh4bsf9bfkl00mf573c/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mLYruWN0h86ZAOxFWLnVBd8nkYHqRAzj8CDN9mFVNnm_cBULYh_4MzwJvsQKFAn0c5GLb939z-39vVmsEp2B9J8DtHxYoa0AxN5scPd1daJDreTun-e7IGq-jputp3HGb4nGHsp1JbQA3QAdggkas6OjQOz8z5EUffFu6LgJVJyoClNYnEDATwtcwf?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.0910191,52.1095216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Alphenplein 8 </name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/i83krlsfcf7mpihg6iip6d5i8c/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mRA5Ecq9-mu99hedqQQzgQiqwA__m9FkxJPWLZ6n2oVWEPmHwcPs7cAusFYbPM2SyC2SUlO3k_fWkBd-gwVb-6nc6NGn41qGtJooZrNRDj1_p-Tp2QAb1yZoOiPYhgVLSCu2cBYRCaeUjRxzEecNqHp6DeHZsRNWCekCj-dt4kxaqWH_oYl7oMG5lXbg?fife" height="200" width="auto" /><br><br>ZOE]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/i83krlsfcf7mpihg6iip6d5i8c/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mRA5Ecq9-mu99hedqQQzgQiqwA__m9FkxJPWLZ6n2oVWEPmHwcPs7cAusFYbPM2SyC2SUlO3k_fWkBd-gwVb-6nc6NGn41qGtJooZrNRDj1_p-Tp2QAb1yZoOiPYhgVLSCu2cBYRCaeUjRxzEecNqHp6DeHZsRNWCekCj-dt4kxaqWH_oYl7oMG5lXbg?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1381026,52.0917464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Asch van Wijckskade 21</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3hjvu7a4hhsue8gt8jdthl5mus/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mItG0NurlJb-YrgJjPGGZw4gZQ_lGvHvSRGVU2-ODtNDN2-k7XQfmkjceJbRY7sTScTa4dUzMp0d_4u7NzCK0UYb7mruWFJ3CoJ816VDxrIIWDbbjIyMWNTln02niDt_M5Y9o-2hZRNNrUtwiz0EMC_6hdurAwqKkOGOydJLPknEjUAcUqPfxUIn0kMw?fife" height="200" width="auto" /><br><br>ZOE ZE50 en Tesla]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/3hjvu7a4hhsue8gt8jdthl5mus/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mItG0NurlJb-YrgJjPGGZw4gZQ_lGvHvSRGVU2-ODtNDN2-k7XQfmkjceJbRY7sTScTa4dUzMp0d_4u7NzCK0UYb7mruWFJ3CoJ816VDxrIIWDbbjIyMWNTln02niDt_M5Y9o-2hZRNNrUtwiz0EMC_6hdurAwqKkOGOydJLPknEjUAcUqPfxUIn0kMw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1208404,52.0962411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Esveldstraat 9
+</name>
+        <description><![CDATA[<img src="https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/lc8t2n43g6un8hfqt5taslst9g/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kdKyLc_cwX5CQFenqmzsQIdkjIdTevHtDkJX7c0fofInpB_zVhcPHqz__v4_xodQw6MQw5ZdAXXY7qJWirbOI0M6V8EsFvNGbLn0U6khzqWWbIIej4XDabmjOkLBWdpK5BROd8iVgpCIYV4evDgup6DN2-rMx_XGfOUfVZXA7uqPhN5Hwcv6O5zReCUw?fife" height="200" width="auto" /><br><br>ZOE <br>sinds 12 januari 2018. ]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-08-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/lc8t2n43g6un8hfqt5taslst9g/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kdKyLc_cwX5CQFenqmzsQIdkjIdTevHtDkJX7c0fofInpB_zVhcPHqz__v4_xodQw6MQw5ZdAXXY7qJWirbOI0M6V8EsFvNGbLn0U6khzqWWbIIej4XDabmjOkLBWdpK5BROd8iVgpCIYV4evDgup6DN2-rMx_XGfOUfVZXA7uqPhN5Hwcv6O5zReCUw?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1309264,52.1032564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Esveldstraat / BU31</name>
+        <description>Tesla Model 3 en ZOE ZE50</description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1330659,52.102716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Riebeeckstraat</name>
+        <description>ZOE ZE50 en IONIQ5</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0991416,52.0901205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Rietsuikerweg</name>
+        <description>IONIQ5</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0714588,52.0874695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Heutszstraat</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0976242,52.0930472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Van Lennepdwarsstraat</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0994242,52.0955714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Vechtplantsoen thv 292</name>
+        <description>ZOE</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0808218,52.1187602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Veilingstraat 1-99</name>
+        <description><![CDATA[<img src="https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/clqj19ke3gqgajp9jot1s9i10s/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9n5YE_D3ahAmVtVaQJ2qtG7BhcS9urzfteg96V-LJuORfpcMh-eSyVLfrOrumRlQeG6NsFJoCe1xMcZX9EUXP6o-WaN2vaYIocNB-ZR8orwQDTewq9JYbg1zsUqpqq5iqSmhCSR7pLTqhuhDex2DdLBVDaX9fJbB3OOG9q716cBBjsK5LsJ1V5Wx3gM8A?fife" height="200" width="auto" /><br><br>2xZOE ZE50]]></description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/clqj19ke3gqgajp9jot1s9i10s/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9n5YE_D3ahAmVtVaQJ2qtG7BhcS9urzfteg96V-LJuORfpcMh-eSyVLfrOrumRlQeG6NsFJoCe1xMcZX9EUXP6o-WaN2vaYIocNB-ZR8orwQDTewq9JYbg1zsUqpqq5iqSmhCSR7pLTqhuhDex2DdLBVDaX9fJbB3OOG9q716cBBjsK5LsJ1V5Wx3gM8A?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1099985,52.0825719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Utrecht Veeartsenijstraat - laadplein met deelauto's]]></name>
+        <description>Tesla Model 3 en ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1378087,52.096308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Verlengde Hoogravenseweg 207 TO</name>
+        <description><![CDATA[<img src="https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/bjl9k8mfvo2bengge5magoj1h4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kZlh2c2SO1Nv-jbp8UFhVVvX8yJk_7M8T0-rmvFKtK20W8s56W6hedRhIOvZEBF9jw9cfz3FzKyt6mPIsAvQpm82eQEO7RgYHuL8asvH2NhLafwYM3Zp4R-N9otia2HRuAQ_WQpiRWkQ2cHqwSLeiGRI7wdscrgX_UttUXUPOvkOY7MHGuUhv7Dy2e?fife" height="200" width="auto" /><br><br>ZOE en Tesla Model 3 <br>per juli 2020]]></description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-14-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/bjl9k8mfvo2bengge5magoj1h4/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9kZlh2c2SO1Nv-jbp8UFhVVvX8yJk_7M8T0-rmvFKtK20W8s56W6hedRhIOvZEBF9jw9cfz3FzKyt6mPIsAvQpm82eQEO7RgYHuL8asvH2NhLafwYM3Zp4R-N9otia2HRuAQ_WQpiRWkQ2cHqwSLeiGRI7wdscrgX_UttUXUPOvkOY7MHGuUhv7Dy2e?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1185328,52.0683588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Vleutenseweg 66</name>
+        <description><![CDATA[<img src="https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/j2ius73569vcahb90fgee4i5jo/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nOSeXaqq3y6T2MkYCdReee_CLXpDlNITF3Acm6ByyHHTi-zt2CknqvOO6N5nHOlnZdJj3Bn9Anay8813OyHbiPQQ7MBJcNSgoU4uc7G7g5Cmhy7plvlJW10pJVY9H18YYgEpXzIC6g42S0C_ans8Ls_NfoJPqxMAMjolfw0DVE1hire0lc3GXI5WA7hg?fife" height="200" width="auto" /><br><br>ZOE ZE50<br><br><img src="https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/unev71ekh29ogb7ogehsburf58/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nEkUv53sSACpQqJZ0GrK4N8BN6_8bPEOTWQuCDLzN1nSukwYHtamp37cMZKFE215lXxmRtAcWkmi9HYCDDOsvMqpA-iCq9lmn8LxZPY5PqhG_nKaSR4itlji3MNAYVVwlO4TNcnMwtYl8BEFq-IyD8iylR7gtAl7J_76ic07vKqwiD_-9Uh8eRpSscrA?fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0s-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/j2ius73569vcahb90fgee4i5jo/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nOSeXaqq3y6T2MkYCdReee_CLXpDlNITF3Acm6ByyHHTi-zt2CknqvOO6N5nHOlnZdJj3Bn9Anay8813OyHbiPQQ7MBJcNSgoU4uc7G7g5Cmhy7plvlJW10pJVY9H18YYgEpXzIC6g42S0C_ans8Ls_NfoJPqxMAMjolfw0DVE1hire0lc3GXI5WA7hg?fife https://doc-00-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/unev71ekh29ogb7ogehsburf58/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9nEkUv53sSACpQqJZ0GrK4N8BN6_8bPEOTWQuCDLzN1nSukwYHtamp37cMZKFE215lXxmRtAcWkmi9HYCDDOsvMqpA-iCq9lmn8LxZPY5PqhG_nKaSR4itlji3MNAYVVwlO4TNcnMwtYl8BEFq-IyD8iylR7gtAl7J_76ic07vKqwiD_-9Uh8eRpSscrA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1023926,52.0926913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Von Kleistlaan 17a</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/icadb4tk3mnl5kvqkql6k2opig/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lBeY-iH5_GbDVsZcEjQSYHB0YnZ3oZxPhOS3biv_Pigc0eMN039ZXNncboL0Hz5s0XN_duq6jPQl1ZRE12SDrt6pjJJcixe5WQN-thUwWDrtn_vpz7BVDmxFfu0C7Ykf7zwfkdaXrd-4n5Af-NbyuuLdo6I0NbdLz6WcjMLNGG9M9kIU81nACDRbDY?fife" height="200" width="auto" /><br><br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/icadb4tk3mnl5kvqkql6k2opig/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lBeY-iH5_GbDVsZcEjQSYHB0YnZ3oZxPhOS3biv_Pigc0eMN039ZXNncboL0Hz5s0XN_duq6jPQl1ZRE12SDrt6pjJJcixe5WQN-thUwWDrtn_vpz7BVDmxFfu0C7Ykf7zwfkdaXrd-4n5Af-NbyuuLdo6I0NbdLz6WcjMLNGG9M9kIU81nACDRbDY?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.082351,52.0910993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Wageningseberg</name>
+        <description><![CDATA[<img src="https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/c18c200ldjfeo4in1dlri4jcqg/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lek4zQp64iz9bbEjrzpmut-q0qgdFgf9Pmj2e1qP6sQKeppognNMl3B4QKml3yHFyFkxnoWNFulMvFUuKtmUN_i9EJldpIHgjQ1bHNO-yTHafYQICKRamDJZ45ZkFmn6Tehk7NdL4fAhgQt_-6_ENoKUDUT4qtCqIaNMeGr6Cq-p_V-H2lHcWJ-5G89g?fife" height="200" width="auto" /><br><br>ZOE]]></description>
+        <styleUrl>#icon-1741-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/c18c200ldjfeo4in1dlri4jcqg/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lek4zQp64iz9bbEjrzpmut-q0qgdFgf9Pmj2e1qP6sQKeppognNMl3B4QKml3yHFyFkxnoWNFulMvFUuKtmUN_i9EJldpIHgjQ1bHNO-yTHafYQICKRamDJZ45ZkFmn6Tehk7NdL4fAhgQt_-6_ENoKUDUT4qtCqIaNMeGr6Cq-p_V-H2lHcWJ-5G89g?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1278121,52.0658314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Weerdsingel OZ 75 en 76</name>
+        <description><![CDATA[<img src="https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/no8l8adtak9tg9r7q84euldu5o/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9l6yl1KE2d7o1uHhp4tF8e8yqIJ_3LMJJSCiqoICmreWUU_sCR1RlzyStl4maFAhRSOHZmPQbAXwPaNQ28OaqaCdIsgee_difJUXWRtZrmFvRNhEEQBLWRijfLPFTuqrMcsoQqWqRsGcnNuZRipQ8Iy8qtsbULw_hasXvYyHRnqkkUUvXNUMUKmOJ5ZzQ?fife" height="200" width="auto" /><br><br>Tesla Model 3 <br>ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-10-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/no8l8adtak9tg9r7q84euldu5o/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9l6yl1KE2d7o1uHhp4tF8e8yqIJ_3LMJJSCiqoICmreWUU_sCR1RlzyStl4maFAhRSOHZmPQbAXwPaNQ28OaqaCdIsgee_difJUXWRtZrmFvRNhEEQBLWRijfLPFTuqrMcsoQqWqRsGcnNuZRipQ8Iy8qtsbULw_hasXvYyHRnqkkUUvXNUMUKmOJ5ZzQ?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1200581,52.0969756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Willem Barentszstraat - potentiele locatie</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1411464,52.0960118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Wittevrouwenkade laadplein</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.125769,52.0955902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Wisselstraat 14</name>
+        <description><![CDATA[Besloten parkeergarage<br>Tesla Model 3 en ZOE ZE50]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0960125,52.100381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Wolfstraat</name>
+        <description><![CDATA[ZOE ZE50<br>eigen laadpaal in voorbereiding]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1076549,52.0948926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Zwaluwstraat 21</name>
+        <description>ZOE ZE50</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.1191291,52.1012013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht Chisinaustraat Levels - in ontwikkeling</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0745799,52.0954767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vianen Kerkstraat 9
+</name>
+        <description><![CDATA[ZOE's]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0885475,51.9953321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zeist Nieuweroordweg</name>
+        <description><![CDATA[ZOE's]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.2260465,52.0893863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zoetermeer Brusselstraat 4</name>
+        <description><![CDATA[<img src="https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/15s1gj9skj4apao93s4he3ovc0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mP6jjy7H05CnEZkeLzga1EPkfB6GXmKZYpl-aRDPvmy4L-xjSD2YUl7viT0OAh6Y2vkCBWpY1Lju8GflOC5neJczBh-jWKZCGHcB292DTJ37ozFdyDC9pqsSL5U5SLybzGQ8JsFlJ3aZlzmm9N1GOGp26LX3OLrQ62fzvvP3CSkmVJ8SZEo5sMY_7H?fife" height="200" width="auto" /><br><br>ZOE's<br>Zoetermeer - binnenterein brandweer (WDS Zoetermeer) (Brusselstraat 4 Zoetermeer)]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/15s1gj9skj4apao93s4he3ovc0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mP6jjy7H05CnEZkeLzga1EPkfB6GXmKZYpl-aRDPvmy4L-xjSD2YUl7viT0OAh6Y2vkCBWpY1Lju8GflOC5neJczBh-jWKZCGHcB292DTJ37ozFdyDC9pqsSL5U5SLybzGQ8JsFlJ3aZlzmm9N1GOGp26LX3OLrQ62fzvvP3CSkmVJ8SZEo5sMY_7H?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.4873845,52.0621252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zoetermeer Frankrijklaan 1
+</name>
+        <description><![CDATA[<img src="https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/5j3t51l0qpst3v9luga5mdpfl0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mwzJN3NXY0aCPxjsLzYwK2knATqtiMyh27GNsuUieDXpsmp-DQfDvE_ZBjxTRGNdpiZHYQZ6rZQsKTq0X17yHtVuzrY6dP7aI7PYRcXZ2GJXIa0yLgAwWE1cxuPP74ELti--gpcWif9DBGkOntAsCNlu_e5RGk4lNRqTu2_VJxW7MIMlySr7147rKt?fife" height="200" width="auto" /><br><br>ZOE's]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-0g-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/5j3t51l0qpst3v9luga5mdpfl0/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9mwzJN3NXY0aCPxjsLzYwK2knATqtiMyh27GNsuUieDXpsmp-DQfDvE_ZBjxTRGNdpiZHYQZ6rZQsKTq0X17yHtVuzrY6dP7aI7PYRcXZ2GJXIa0yLgAwWE1cxuPP74ELti--gpcWif9DBGkOntAsCNlu_e5RGk4lNRqTu2_VJxW7MIMlySr7147rKt?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            4.4941592,52.0609841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Houten Ebbenhout</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/f7lvhuosvbbe5kmcf7p9ao0smo/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lrw4_n_sDf7JnruP7V5hjjDqa4gJYw4OjMIbyoTotzrRbsKKE77otFydyRMu3LFZ8HTtUhhd1tueQKUMEJOnxSLpShm2pueQ_BwScw2_AQkHGpTuxwcomhdPFUdvDrXxO2xxplFIHiGEqyG7U4mCWNv_JKgwJSziX_55Yk26joV5_BbemjgY1Hrf3t8g?fife" height="200" width="auto" /><br><br>ZOE ZE50 en Tesla Model 3]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/f7lvhuosvbbe5kmcf7p9ao0smo/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9lrw4_n_sDf7JnruP7V5hjjDqa4gJYw4OjMIbyoTotzrRbsKKE77otFydyRMu3LFZ8HTtUhhd1tueQKUMEJOnxSLpShm2pueQ_BwScw2_AQkHGpTuxwcomhdPFUdvDrXxO2xxplFIHiGEqyG7U4mCWNv_JKgwJSziX_55Yk26joV5_BbemjgY1Hrf3t8g?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1688528,52.0183861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utrecht - Oude Vleutenseweg / Bellevue</name>
+        <description>in ontwikkeling</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.0740351,52.097252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>WDS laadpalen bij deelauto</name>
+      <Placemark>
+        <name>Wageningseberg 430 laadpaal deelauto We Drive Solar</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1274199,52.0656903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal WDS</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.296231,52.0562176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burg. Fockema Andrealaan</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1369214,52.0805779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thorbeckelaan 99 openbare laadpaal</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.099997,52.1077769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Kerkstraat
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0919914,51.9958738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[laadpaal deelauto's
+]]></name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            4.9949598,51.9200197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal WDS</name>
+        <description>plaatsing medio januari 2019</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.1494876,52.1032886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[laadpaal deelauto's
+]]></name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0918841,51.8935599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal Oudenoord WDS</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1114052,52.0981916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[WDS - laadpaal deelauto's
+]]></name>
+        <description>- in voorbereiding</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.12568,52.0844575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[WDS - laadpaal deelauto's Brusselstraat 4]]></name>
+        <description>aansluiting 20-9-2018</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            4.4874966,52.0620955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[WDS - laadpaal deelauto's Frankrijklaan 1 / Reimsstraat]]></name>
+        <description>aansluiting 20-9-2018</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            4.4942987,52.0609874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Robiniahout
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.170269,52.0203354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Rijneiland
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.2349853,52.047674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[laadpaal deelauto's Molukkenstraat
+]]></name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0906289,52.0926649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[laadpaal deelauto's Beethovenlaan 9
+]]></name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0884027,52.0861486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Abel Tasmanstraat: 1 zijde WDS</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0970769,52.0908455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Van Zijstweg
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1065505,52.0836598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Lombokstraat
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1002097,52.0916036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Knipstraat
+</name>
+        <description>22-8-18 actief</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.1085353,52.0936338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[laadpaal deelauto's Billitonstraat]]></name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0948882,52.0892173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Weerdsingel OZ
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1199722,52.0971734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal Oldenburgerstraat
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1461935,52.1043438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal Langerakbaan
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0621438,52.0860068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WDS - laadpaal
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1721358,52.083673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WDS - laadpaal
+</name>
+        <description><![CDATA[<img src="https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/qspc39j6se8cbdlpu5ug6dk6jo/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9k0iqfX3M6ik0saFljAScbBPB4cYWFky71XJMZMXZEATSl1W9R6rHAysf1fBRQn7L30ur87MCL0IJVDOHyjZTjDJasGxS9F9mmH8d7xO64ukEQEJd5jrA76o0Aal1B6itQ3QvbptWpepDiuTH7mbF_42oafn9hRx_SjLp8YkkGDiq_HpfFTKz4jJSOvLA?fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://doc-04-2o-mymaps.googleusercontent.com/untrusted/hostedimage/l6g5ndp3jkqtbhkj1l07plc9fc/qspc39j6se8cbdlpu5ug6dk6jo/1672827300000/T1ak9R792K7EdkKy1mDuUsmYZjzX_obb/*/6AKgB-9k0iqfX3M6ik0saFljAScbBPB4cYWFky71XJMZMXZEATSl1W9R6rHAysf1fBRQn7L30ur87MCL0IJVDOHyjZTjDJasGxS9F9mmH8d7xO64ukEQEJd5jrA76o0Aal1B6itQ3QvbptWpepDiuTH7mbF_42oafn9hRx_SjLp8YkkGDiq_HpfFTKz4jJSOvLA?fife</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.1727581,52.0837257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal Kleefkruidstraat 17 Amsterdam</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            4.9819299,52.3157724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal Helling/Briljantlaan
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.122633,52.075721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 laadpunten voor WDS in parkeergarage</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1257695,52.0844338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8x laadpunten</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            4.9130161,52.3368476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WDS Veilingstraat 1-99</name>
+        <description><![CDATA[sinds medio juli '19 actief]]></description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.1098228,52.0825126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autodate parkeergelegenheid met laadpaal WDS</name>
+        <description>2e Daalsedijk</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.0986648,52.0995922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>voorbereiding Autodate parkeergelegenheid elektrisch</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1025242,52.0927308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>voorbereiding Autodate parkeergelegenheid met laadpaal</name>
+        <description>Leidseweg naast 24</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.1031172,52.0899095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[laadpaal deelauto's Molenbeekstraat
+]]></name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1128805,52.0790906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal Bartóklaan</name>
+        <description>actief per 15-2-19</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.0912261,52.0850808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1117593,52.0980433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal WDS</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.0944682,52.0718649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autodate met laadpaal We Drive Solar</name>
+        <description>sinds okt 2019 </description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.0904789,52.0887624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>E-bikes</name>
+        <styleUrl>#icon-1522-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1252026,52.0847812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>laadpaal WDS</name>
+        <description>plaatsing medio januari 2019</description>
+        <styleUrl>#icon-1787-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            5.1485649,52.1031173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autodate parkeergelegenheid elektrisch</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.1006895,52.0902127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laadpaal Van Esveldstraat
+</name>
+        <styleUrl>#icon-1787-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.130964,52.1033223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Naamloze laag</name>
+    </Folder>
+  </Document>
+</kml>

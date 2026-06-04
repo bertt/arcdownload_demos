@@ -1,0 +1,10 @@
+{
+  "id": "Verticale Drainageput",
+  "type": "circle",
+  "paint": {
+    "circle-color": "rgba(38,115,0,1)",
+    "circle-radius": 5,
+    "circle-stroke-color": "rgba(0,0,0,1)",
+    "circle-stroke-width": 1
+  }
+}

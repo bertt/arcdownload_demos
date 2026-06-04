@@ -1,0 +1,103 @@
+{
+  "name": "1.1 Percentage groen in buurten (oppervlak groen en bladerdek van bovenaf bekeken)",
+  "featureCount": 111,
+  "geometryType": "esriGeometryPolygon",
+  "description": "",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "Naam_buurt",
+      "type": "esriFieldTypeString",
+      "alias": "Naam_buurt"
+    },
+    {
+      "name": "Oppervlak_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Oppervlak_groen"
+    },
+    {
+      "name": "Oppervlak_bladerdek_zonder_groe",
+      "type": "esriFieldTypeDouble",
+      "alias": "Oppervlak_bladerdek_zonder_groen"
+    },
+    {
+      "name": "Oppervlak_bladerdek_met_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Oppervlak_bladerdek_met_groen"
+    },
+    {
+      "name": "Oppervlak_horizontaal_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Oppervlak_horizontaal_groen"
+    },
+    {
+      "name": "Oppervlak_land",
+      "type": "esriFieldTypeDouble",
+      "alias": "Oppervlak_land"
+    },
+    {
+      "name": "Oppervlak_buurt",
+      "type": "esriFieldTypeDouble",
+      "alias": "Oppervlak_buurt"
+    },
+    {
+      "name": "Percentage_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percentage_groen"
+    },
+    {
+      "name": "Percentage_bladerdek",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percentage_bladerdek"
+    },
+    {
+      "name": "Percentage_alleen_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percentage_alleen_groen"
+    },
+    {
+      "name": "Percentage_alleen_bladerdek",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percentage_alleen_bladerdek"
+    },
+    {
+      "name": "Percentage_bladerdek_met_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percentage_bladerdek_met_groen"
+    },
+    {
+      "name": "Percentage_horizontaal_groen",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percentage_horizontaal_groen"
+    },
+    {
+      "name": "Veertig_procent_landoppervlak",
+      "type": "esriFieldTypeDouble",
+      "alias": "Veertig_procent_landoppervlak"
+    },
+    {
+      "name": "Tekort_groen_inclusief_bladerde",
+      "type": "esriFieldTypeDouble",
+      "alias": "Tekort_groen_inclusief_bladerdek"
+    },
+    {
+      "name": "Tekort_groen_exclusief_bladerde",
+      "type": "esriFieldTypeDouble",
+      "alias": "Tekort_groen_exclusief_bladerdek"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "_2500m_buffer",
+  "featureCount": 1,
+  "geometryType": "esriGeometryPolygon",
+  "description": "",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "Naam",
+      "type": "esriFieldTypeString",
+      "alias": "Naam"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length"
+    }
+  ]
+}

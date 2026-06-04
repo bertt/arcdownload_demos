@@ -1,0 +1,23 @@
+{
+  "id": "Ondergrondse berging",
+  "type": "line",
+  "paint": {
+    "line-color": [
+      "step",
+      [
+        "get",
+        ""
+      ],
+      "#000000",
+      600,
+      "rgba(0,0,0,1)",
+      380,
+      "rgba(0,0,0,1)",
+      600,
+      "rgba(0,0,0,1)",
+      1000,
+      "rgba(0,0,0,1)"
+    ],
+    "line-width": 2
+  }
+}

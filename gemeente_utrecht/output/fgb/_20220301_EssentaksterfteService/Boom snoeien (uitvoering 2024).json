@@ -1,0 +1,10 @@
+{
+  "id": "Boom snoeien (uitvoering 2024)",
+  "type": "circle",
+  "paint": {
+    "circle-color": "rgba(255,170,0,1)",
+    "circle-radius": 5,
+    "circle-stroke-color": "rgba(255,255,255,1)",
+    "circle-stroke-width": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Infiltratieriool - niet in eigendom",
+  "type": "line",
+  "paint": {
+    "line-color": [
+      "step",
+      [
+        "get",
+        ""
+      ],
+      "#000000",
+      125,
+      "rgba(169,0,230,1)",
+      380,
+      "rgba(169,0,230,1)",
+      600,
+      "rgba(169,0,230,1)",
+      1000,
+      "rgba(169,0,230,1)"
+    ],
+    "line-width": 2
+  }
+}

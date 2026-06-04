@@ -1,0 +1,34 @@
+{
+  "id": "1.1 Percentage groen in buurten (oppervlak groen en bladerdek van bovenaf bekeken)",
+  "type": "fill",
+  "paint": {
+    "fill-color": [
+      "step",
+      [
+        "get",
+        "Percentage_horizontaal_groen"
+      ],
+      "rgba(0,0,0,0)",
+      5,
+      "rgba(168,0,0,1)",
+      10,
+      "rgba(230,0,0,1)",
+      20,
+      "rgba(255,0,0,1)",
+      30,
+      "rgba(255,190,190,1)",
+      40,
+      "rgba(211,255,190,1)",
+      50,
+      "rgba(163,255,115,1)",
+      60,
+      "rgba(85,255,0,1)",
+      70,
+      "rgba(76,230,0,1)",
+      80,
+      "rgba(56,168,0,1)",
+      90,
+      "rgba(38,115,0,1)"
+    ]
+  }
+}

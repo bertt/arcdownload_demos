@@ -1,0 +1,28 @@
+{
+  "name": "Bos en bosplantsoen binnen gemeentegrens (141 ha)",
+  "featureCount": 1,
+  "geometryType": "esriGeometryPolygon",
+  "description": "",
+  "fields": [
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "alias": "FID"
+    },
+    {
+      "name": "F2024110_ID",
+      "type": "esriFieldTypeString",
+      "alias": "2024110_ID"
+    },
+    {
+      "name": "Shape__Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Area"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape__Length"
+    }
+  ]
+}

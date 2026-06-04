@@ -1,0 +1,32 @@
+{
+  "id": "EPR_2022",
+  "type": "circle",
+  "paint": {
+    "circle-color": [
+      "match",
+      [
+        "get",
+        "Bestrijdin"
+      ],
+      "Preventieve bestrijding m.b.v. nematoden (aaltjes)",
+      "rgba(0,112,255,1)",
+      "Geen preventieve bestrijding",
+      "rgba(56,168,0,1)",
+      "#000000"
+    ],
+    "circle-radius": 5,
+    "circle-stroke-color": [
+      "match",
+      [
+        "get",
+        "Bestrijdin"
+      ],
+      "Preventieve bestrijding m.b.v. nematoden (aaltjes)",
+      "rgba(0,0,0,1)",
+      "Geen preventieve bestrijding",
+      "rgba(0,0,0,1)",
+      "rgba(0,0,0,0)"
+    ],
+    "circle-stroke-width": 1
+  }
+}

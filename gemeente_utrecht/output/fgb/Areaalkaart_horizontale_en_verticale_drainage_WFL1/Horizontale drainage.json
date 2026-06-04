@@ -1,0 +1,21 @@
+{
+  "id": "Horizontale drainage",
+  "type": "line",
+  "paint": {
+    "line-color": [
+      "step",
+      [
+        "get",
+        "DIAMETER_L"
+      ],
+      "#000000",
+      60,
+      "rgba(56,168,0,1)",
+      100,
+      "rgba(56,168,0,1)",
+      150,
+      "rgba(56,168,0,1)"
+    ],
+    "line-width": 2
+  }
+}

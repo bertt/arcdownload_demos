@@ -1,0 +1,23 @@
+{
+  "name": "20240919_Brandkranen",
+  "featureCount": 553,
+  "geometryType": "esriGeometryPoint",
+  "description": "",
+  "fields": [
+    {
+      "name": "FID",
+      "type": "esriFieldTypeOID",
+      "alias": "FID"
+    },
+    {
+      "name": "beheerder",
+      "type": "esriFieldTypeString",
+      "alias": "beheerder"
+    },
+    {
+      "name": "beheerDet",
+      "type": "esriFieldTypeString",
+      "alias": "beheerDet"
+    }
+  ]
+}

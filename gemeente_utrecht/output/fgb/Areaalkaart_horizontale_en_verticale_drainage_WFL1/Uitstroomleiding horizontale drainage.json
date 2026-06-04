@@ -1,0 +1,9 @@
+{
+  "id": "Uitstroomleiding horizontale drainage",
+  "type": "line",
+  "paint": {
+    "line-color": "rgba(168,0,132,1)",
+    "line-width": 2,
+    "line-opacity": 1
+  }
+}

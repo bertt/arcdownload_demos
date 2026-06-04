@@ -1,0 +1,203 @@
+{
+  "name": "Gemalen (Hemelwater)",
+  "featureCount": 109,
+  "geometryType": "esriGeometryPoint",
+  "description": "Gemalen inzameling en transport hemelwater",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "ID"
+    },
+    {
+      "name": "BITMAPANGL",
+      "type": "esriFieldTypeDouble",
+      "alias": "BITMAPANGL"
+    },
+    {
+      "name": "BOUWJAAR",
+      "type": "esriFieldTypeInteger",
+      "alias": "BOUWJAAR"
+    },
+    {
+      "name": "LEEFTIJD",
+      "type": "esriFieldTypeInteger",
+      "alias": "LEEFTIJD"
+    },
+    {
+      "name": "MAAIVELD_P",
+      "type": "esriFieldTypeDouble",
+      "alias": "MAAIVELD_P"
+    },
+    {
+      "name": "OPMERKING",
+      "type": "esriFieldTypeString",
+      "alias": "OPMERKING"
+    },
+    {
+      "name": "OPMERKIN01",
+      "type": "esriFieldTypeString",
+      "alias": "OPMERKIN01"
+    },
+    {
+      "name": "OPMERKIN02",
+      "type": "esriFieldTypeString",
+      "alias": "OPMERKIN02"
+    },
+    {
+      "name": "RELATIEVEH",
+      "type": "esriFieldTypeInteger",
+      "alias": "RELATIEVEH"
+    },
+    {
+      "name": "XCOORDINAA",
+      "type": "esriFieldTypeDouble",
+      "alias": "XCOORDINAA"
+    },
+    {
+      "name": "YCOORDINAA",
+      "type": "esriFieldTypeDouble",
+      "alias": "YCOORDINAA"
+    },
+    {
+      "name": "CODE",
+      "type": "esriFieldTypeString",
+      "alias": "CODE"
+    },
+    {
+      "name": "GUID",
+      "type": "esriFieldTypeString",
+      "alias": "GUID"
+    },
+    {
+      "name": "IMGEOID",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEOID"
+    },
+    {
+      "name": "LASTUPDATE",
+      "type": "esriFieldTypeDate",
+      "alias": "LASTUPDATE"
+    },
+    {
+      "name": "AMBITIENIV",
+      "type": "esriFieldTypeString",
+      "alias": "AMBITIENIV"
+    },
+    {
+      "name": "RIOOLBEHEE",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLBEHEE"
+    },
+    {
+      "name": "FUNDERINGT",
+      "type": "esriFieldTypeString",
+      "alias": "FUNDERINGT"
+    },
+    {
+      "name": "BEMALINGSG",
+      "type": "esriFieldTypeString",
+      "alias": "BEMALINGSG"
+    },
+    {
+      "name": "BEMALING01",
+      "type": "esriFieldTypeString",
+      "alias": "BEMALING01"
+    },
+    {
+      "name": "TYPE_GEMAA",
+      "type": "esriFieldTypeString",
+      "alias": "TYPE_GEMAA"
+    },
+    {
+      "name": "TYPE_GEM01",
+      "type": "esriFieldTypeString",
+      "alias": "TYPE_GEM01"
+    },
+    {
+      "name": "BUURTOMSCH",
+      "type": "esriFieldTypeString",
+      "alias": "BUURTOMSCH"
+    },
+    {
+      "name": "GEBIEDOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "GEBIEDOMSC"
+    },
+    {
+      "name": "IMGEO_PUT",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEO_PUT"
+    },
+    {
+      "name": "IMGEO_PU01",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEO_PU01"
+    },
+    {
+      "name": "MATERIAAL",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAAL"
+    },
+    {
+      "name": "MATERIAA01",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAA01"
+    },
+    {
+      "name": "MATERIAA02",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAA02"
+    },
+    {
+      "name": "LEVERANCIE",
+      "type": "esriFieldTypeString",
+      "alias": "LEVERANCIE"
+    },
+    {
+      "name": "LEVERANC01",
+      "type": "esriFieldTypeString",
+      "alias": "LEVERANC01"
+    },
+    {
+      "name": "SCHEMATISE",
+      "type": "esriFieldTypeString",
+      "alias": "SCHEMATISE"
+    },
+    {
+      "name": "RIOOLSTELS",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLSTELS"
+    },
+    {
+      "name": "RIOOLSTE01",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLSTE01"
+    },
+    {
+      "name": "PUT_TYPECO",
+      "type": "esriFieldTypeString",
+      "alias": "PUT_TYPECO"
+    },
+    {
+      "name": "PUT_TYPEOM",
+      "type": "esriFieldTypeString",
+      "alias": "PUT_TYPEOM"
+    },
+    {
+      "name": "STRAATOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "STRAATOMSC"
+    },
+    {
+      "name": "KOMGRENSOM",
+      "type": "esriFieldTypeString",
+      "alias": "KOMGRENSOM"
+    }
+  ]
+}

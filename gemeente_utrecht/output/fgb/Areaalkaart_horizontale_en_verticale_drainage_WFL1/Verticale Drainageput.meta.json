@@ -1,0 +1,298 @@
+{
+  "name": "Verticale Drainageput",
+  "featureCount": 462,
+  "geometryType": "esriGeometryPoint",
+  "description": "Verticale drainageput",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "Code",
+      "type": "esriFieldTypeString",
+      "alias": "Code"
+    },
+    {
+      "name": "F2",
+      "type": "esriFieldTypeDouble",
+      "alias": "F2"
+    },
+    {
+      "name": "F3",
+      "type": "esriFieldTypeDouble",
+      "alias": "F3"
+    },
+    {
+      "name": "Put_type_O",
+      "type": "esriFieldTypeString",
+      "alias": "Put_type_O"
+    },
+    {
+      "name": "Bouwjaar",
+      "type": "esriFieldTypeDouble",
+      "alias": "Bouwjaar"
+    },
+    {
+      "name": "Buurt_Omsc",
+      "type": "esriFieldTypeString",
+      "alias": "Buurt_Omsc"
+    },
+    {
+      "name": "Laatste_up",
+      "type": "esriFieldTypeDate",
+      "alias": "Laatste_up"
+    },
+    {
+      "name": "Opmerking",
+      "type": "esriFieldTypeString",
+      "alias": "Opmerking"
+    },
+    {
+      "name": "Bemalingsg",
+      "type": "esriFieldTypeString",
+      "alias": "Bemalingsg"
+    },
+    {
+      "name": "Bemaling_1",
+      "type": "esriFieldTypeString",
+      "alias": "Bemaling_1"
+    },
+    {
+      "name": "Straat_Oms",
+      "type": "esriFieldTypeString",
+      "alias": "Straat_Oms"
+    },
+    {
+      "name": "Rioolstels",
+      "type": "esriFieldTypeString",
+      "alias": "Rioolstels"
+    },
+    {
+      "name": "Rioolste_1",
+      "type": "esriFieldTypeString",
+      "alias": "Rioolste_1"
+    },
+    {
+      "name": "X_Coordina",
+      "type": "esriFieldTypeDouble",
+      "alias": "X_Coordina"
+    },
+    {
+      "name": "Y_Coordina",
+      "type": "esriFieldTypeDouble",
+      "alias": "Y_Coordina"
+    },
+    {
+      "name": "ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "ID"
+    },
+    {
+      "name": "BITMAPANGL",
+      "type": "esriFieldTypeDouble",
+      "alias": "BITMAPANGL"
+    },
+    {
+      "name": "CAD_SELECT",
+      "type": "esriFieldTypeString",
+      "alias": "CAD_SELECT"
+    },
+    {
+      "name": "LEEFTIJD",
+      "type": "esriFieldTypeInteger",
+      "alias": "LEEFTIJD"
+    },
+    {
+      "name": "MAAIVELD_P",
+      "type": "esriFieldTypeDouble",
+      "alias": "MAAIVELD_P"
+    },
+    {
+      "name": "OPMERKIN01",
+      "type": "esriFieldTypeString",
+      "alias": "OPMERKIN01"
+    },
+    {
+      "name": "OPMERKIN02",
+      "type": "esriFieldTypeString",
+      "alias": "OPMERKIN02"
+    },
+    {
+      "name": "PEILBUISNU",
+      "type": "esriFieldTypeString",
+      "alias": "PEILBUISNU"
+    },
+    {
+      "name": "RELATIEVEH",
+      "type": "esriFieldTypeInteger",
+      "alias": "RELATIEVEH"
+    },
+    {
+      "name": "STROOMPROF",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "STROOMPROF"
+    },
+    {
+      "name": "THEORETISC",
+      "type": "esriFieldTypeInteger",
+      "alias": "THEORETISC"
+    },
+    {
+      "name": "XCOORDINAA",
+      "type": "esriFieldTypeDouble",
+      "alias": "XCOORDINAA"
+    },
+    {
+      "name": "YCOORDINAA",
+      "type": "esriFieldTypeDouble",
+      "alias": "YCOORDINAA"
+    },
+    {
+      "name": "GUID",
+      "type": "esriFieldTypeString",
+      "alias": "GUID"
+    },
+    {
+      "name": "IMGEOID",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEOID"
+    },
+    {
+      "name": "AMBITIENIV",
+      "type": "esriFieldTypeString",
+      "alias": "AMBITIENIV"
+    },
+    {
+      "name": "BEHEERDERC",
+      "type": "esriFieldTypeString",
+      "alias": "BEHEERDERC"
+    },
+    {
+      "name": "BEHEERDERO",
+      "type": "esriFieldTypeString",
+      "alias": "BEHEERDERO"
+    },
+    {
+      "name": "RIOOLBEHEE",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLBEHEE"
+    },
+    {
+      "name": "EIGENAAROM",
+      "type": "esriFieldTypeString",
+      "alias": "EIGENAAROM"
+    },
+    {
+      "name": "FUNDERINGT",
+      "type": "esriFieldTypeString",
+      "alias": "FUNDERINGT"
+    },
+    {
+      "name": "BEMALING01",
+      "type": "esriFieldTypeString",
+      "alias": "BEMALING01"
+    },
+    {
+      "name": "TYPE_GEMAA",
+      "type": "esriFieldTypeString",
+      "alias": "TYPE_GEMAA"
+    },
+    {
+      "name": "BUURTOMSCH",
+      "type": "esriFieldTypeString",
+      "alias": "BUURTOMSCH"
+    },
+    {
+      "name": "GEBIEDOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "GEBIEDOMSC"
+    },
+    {
+      "name": "IMGEO_PUT",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEO_PUT"
+    },
+    {
+      "name": "IMGEO_PU01",
+      "type": "esriFieldTypeString",
+      "alias": "IMGEO_PU01"
+    },
+    {
+      "name": "MATERIAAL",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAAL"
+    },
+    {
+      "name": "MATERIAA01",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAA01"
+    },
+    {
+      "name": "VORM_AFDEK",
+      "type": "esriFieldTypeString",
+      "alias": "VORM_AFDEK"
+    },
+    {
+      "name": "MATERIAA02",
+      "type": "esriFieldTypeString",
+      "alias": "MATERIAA02"
+    },
+    {
+      "name": "VORM_PUT_T",
+      "type": "esriFieldTypeString",
+      "alias": "VORM_PUT_T"
+    },
+    {
+      "name": "VORM_KNOOP",
+      "type": "esriFieldTypeString",
+      "alias": "VORM_KNOOP"
+    },
+    {
+      "name": "LEVERANCIE",
+      "type": "esriFieldTypeString",
+      "alias": "LEVERANCIE"
+    },
+    {
+      "name": "LEVERANC01",
+      "type": "esriFieldTypeString",
+      "alias": "LEVERANC01"
+    },
+    {
+      "name": "SCHEMATISE",
+      "type": "esriFieldTypeString",
+      "alias": "SCHEMATISE"
+    },
+    {
+      "name": "RIOOLSTE01",
+      "type": "esriFieldTypeString",
+      "alias": "RIOOLSTE01"
+    },
+    {
+      "name": "PUT_TYPECO",
+      "type": "esriFieldTypeString",
+      "alias": "PUT_TYPECO"
+    },
+    {
+      "name": "PUT_TYPEOM",
+      "type": "esriFieldTypeString",
+      "alias": "PUT_TYPEOM"
+    },
+    {
+      "name": "STATUSOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "STATUSOMSC"
+    },
+    {
+      "name": "STRAATOMSC",
+      "type": "esriFieldTypeString",
+      "alias": "STRAATOMSC"
+    },
+    {
+      "name": "KOMGRENSOM",
+      "type": "esriFieldTypeString",
+      "alias": "KOMGRENSOM"
+    }
+  ]
+}

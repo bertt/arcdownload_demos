@@ -1,0 +1,23 @@
+{
+  "id": "Hemelwaterriool (VGS) - niet in eigendom",
+  "type": "line",
+  "paint": {
+    "line-color": [
+      "step",
+      [
+        "get",
+        ""
+      ],
+      "#000000",
+      125,
+      "rgba(0,169,230,1)",
+      380,
+      "rgba(0,169,230,1)",
+      600,
+      "rgba(0,169,230,1)",
+      1000,
+      "rgba(0,169,230,1)"
+    ],
+    "line-width": 2
+  }
+}
